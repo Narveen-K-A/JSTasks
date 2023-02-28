@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat';
+}
+.bg1{
+    background-image: url('../assets/furniture2.jpg');
+}
+.bg2{
+    background-image: url('../assets/furniture3.jpg');
+}
+.bg3{
+    background-image: url('../assets/furniture4.jpg');
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.font-weight-600{
+    font-weight: 600;
+}
+.font-weight-500{
+    font-weight: 500;
+}
+.font-weight-400{
+    font-weight: 400;
+}
+.font-size-60{
+    font-size: 60px;
+}
+.font-size-35{
+    font-size: 35px;
+}
+.font-size-26{
+    font-size: 26px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-44{
+    font-size: 44px;
+}
+.color-7d7d7d{
+    color: #7d7d7d;
+}
+.color-6c6c6c{
+    color: #6c6c6c;
+}
+.color-5a5a5a{
+    color: #5a5a5a;
+}
+.color-0a0a0a{
+    color: #0a0a0a;
+}
+.color-0f0f0f{
+    color: #0f0f0f;
+}
+.color-000000{
+    color: #000000;
+}
+.color-686868{
+    color: #686868;
+}
+.width-560{
+    width: 560px;
+}
+.width-960{
+    width: 960px;
+}
+.width-220{
+    width: 220px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.outline-none{
+    outline: none;
+}
+.border-none{
+    border: none;
+}
+.color-ff7012{
+    color: #ff7012;
+}
+.header:hover{
+    font-weight: 700;
+    color: #ff7012;
+}
+.bg-color-171717{
+    background-color: #171717;
+}
+.bg-color-ff7012{
+    background-color: #ff7012;
+}
+.new-collection{
+    height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 30px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 12px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.purchase{
+    height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 50px;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: #171717;
+    color: #ffffff;
+}
+.purchase:hover{
+    background-color: #ff7012;
+}
+input{
+    font-size: 13px;
+    color: #7d7d7d;
+    background-color: #f8f8f8;
+    border-color: #ebebeb;
+    border-radius: 5px;
+    padding: 0px 20px 0px 0px;
+    height: 50px;
+    width: 720px;
+}
+.padding-copy{
+    border-top: 1px solid #ebebeb;
+    padding: 35px 15px 35px 15px;
+}
+
