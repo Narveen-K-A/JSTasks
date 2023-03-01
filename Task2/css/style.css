@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat';
+}
+.bg1{
+    background-image: url('../assets/lady.jpg');
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.font-weight-600{
+    font-weight: 600;
+}
+.font-weight-400{
+    font-weight: 400;
+}
+.font-size-12{
+    font-size: 12px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-24{
+    font-size: 24px;
+}
+.font-size-30{
+    font-size: 30px;
+}
+.font-size-36{
+    font-size: 36px;
+}
+.font-size-48{
+    font-size: 48px;
+}
+.font-size-50{
+    font-size: 50px;
+}
+.font-size-60{
+    font-size: 60px;
+}
+.line-height-48{
+    line-height: 48px;
+}
+.font-family-roboto{
+    font-family: "Roboto";
+}
+.font-style-italic{
+    font-style: italic;
+}
+.color-b9f7f9{
+    color: #b9f7f9;
+}
+.color-d4fdfe{
+    color: #d4fdfe;
+}
+.color-363636{
+    color: #363636;
+}
+.color-3a3a3a{
+    color: #3a3a3a;
+}
+.color-0078aa{
+    color: #0078aa;
+}
+.color-505050{
+    color: #505050
+}
+.header:hover{
+    color: #0078aa;
+    font-weight: 700;
+}
+.header2:hover{
+    color: #0078aa;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.width-583{
+    width: 583px;
+}
+.button1{
+    font-size: 12px;
+    border-radius: 45px;
+    background-color: #ffffff;
+    color: #363636;
+    border: 2px solid transparent;
+    padding: 14px 31px;
+    font-weight: 700;
+}
+.button1:hover{
+    font-size: 12px;
+    border-radius: 45px;
+    background-color: #b9f7f9;
+    border: 2px solid #0078aa;
+    color: #363636;
+    padding: 14px 31px;
+    font-weight: 700;
+}
+.button2{
+    font-size: 12px;
+    border-radius: 45px;
+    background-color: #3ce2ad;
+    color: #ffffff;
+    border: 2px solid transparent;
+    padding: 14px 31px;
+    font-weight: 700;
+}
+.button2:hover{
+    font-size: 12px;
+    border-radius: 45px;
+    background-color: #ffffff;
+    border: 2px solid #3ce2ad;
+    color: #363636;
+    padding: 14px 31px;
+    font-weight: 700;
+}
