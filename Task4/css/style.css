@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat';
+}
+.bg1{
+    background-image: url('../assets/background.jpg');
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.font-size-13{
+    font-size: 13px;
+}
+.color-8d8d8d{
+    color: #8d8d8d;
+}
+.header:hover{
+    color: #ffffff;
+}
+.line-height-40{
+    line-height: 40px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
