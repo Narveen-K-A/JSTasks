@@ -99,6 +99,10 @@ body{
     color: #ff7012;
 }
 .header:hover{
+    font-weight: 600;
+    color: #ff7012;
+}
+.header1:hover{
     font-weight: 700;
     color: #ff7012;
 }
@@ -164,5 +168,15 @@ input{
 }
 .width50{
     width: 50px;
+}
+.padding5{
+    padding: 5px 20px 5px 20px;
+}
+.margin75right{
+    margin: 0px 75px 0px 75px;
+}
+#arrowDown:hover{
+    cursor: pointer;
+    color: #ff7012;
 }
 
