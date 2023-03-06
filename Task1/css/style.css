@@ -41,8 +41,14 @@ body{
 .font-size-14{
     font-size: 14px;
 }
+.font-size-12{
+    font-size: 12px;
+}
 .font-size-15{
     font-size: 15px;
+}
+.font-size-16{
+    font-size: 16px;
 }
 .font-size-18{
     font-size: 18px;
@@ -141,5 +147,22 @@ input{
 .padding-copy{
     border-top: 1px solid #ebebeb;
     padding: 35px 15px 35px 15px;
+}
+#facebookIcon:hover,
+#twitterIcon:hover,
+#instagramIcon:hover,
+#searchIcon:hover,
+#cartIcon:hover{
+    color: #ff7012;
+    cursor: pointer;
+}
+.margin50{
+    margin: 50px 0px 50px 0px;
+}
+.line-height-30{
+    line-height: 30px;
+}
+.width50{
+    width: 50px;
 }
 
