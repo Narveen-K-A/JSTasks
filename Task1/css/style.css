@@ -160,14 +160,20 @@ input{
     color: #ff7012;
     cursor: pointer;
 }
-.margin50{
-    margin: 50px 0px 50px 0px;
+.margin60{
+    margin: 60px;
+}
+.margin-60{
+    margin: 0px 60px 60px 60px;
+}
+.margin25{
+    margin: 25px;
 }
 .line-height-30{
     line-height: 30px;
 }
-.width50{
-    width: 50px;
+.width55{
+    width: 55px;
 }
 .padding5{
     padding: 5px 20px 5px 20px;
@@ -178,5 +184,103 @@ input{
 #arrowDown:hover{
     cursor: pointer;
     color: #ff7012;
+}
+.line-height-120per{
+    line-height: 120%;
+}
+.footer-font:hover{
+    font-size: 12px;
+    font-weight: 500;
+    color: #ff7012;
+    cursor: pointer;
+}
+.footer-font2:hover{
+    font-size: 14px;
+    font-weight: 700;
+    color: #686868;
+    cursor: pointer;
+}
+#visaIcon,
+#masterIcon,
+#amexIcon,
+#paypalIcon,
+#jcbIcon{
+    font-size: 30px;
+}
+#visaIcon:hover,
+#masterIcon:hover,
+#amexIcon:hover,
+#paypalIcon:hover,
+#jcbIcon:hover{
+    color: #686868;
+    cursor: pointer;
+    font-size: 30px;
+}
+.margin35{
+    margin: 35px;
+}
+#clockIcon,
+#truckIcon,
+#walletIcon{
+    color: #686868;
+    font-size: 50px;
+}
+.padding80{
+    padding: 80px;
+}
+.padding-top-80{
+    padding-top: 80px;
+}
+.margin200{
+    margin: 200px 0px 10px 0px;
+}
+.margin-200{
+    margin: 10px 0px 200px 0px;
+}
+.margin200{
+    margin: 50px 200px 0px 200px;
+}
+.margin-200{
+    margin: 5px 200px 0px 200px;
+}
+.margin100{
+    margin: 100px;
+}
+.img-width{
+    width: 195px;
+}
+.margin300{
+    margin: 50px 300px 50px 300px;
+}
+.buttonMargin{
+    margin: 50px 0px 0px 0px;
+}
+.margin-top-250{
+    margin-top: 250px;
+}
+.margin-bottom-250{
+    margin-bottom: 250px;
+}
+.width200{
+    width: 200px;
+}
+.margin-right-10{
+    margin-right: 10px;
+}
+.margin-top-25{
+    margin-top: 25px;
+}
+.cartHover:hover{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ff7012;
+    cursor: pointer;
+}
+.margin-top-35{
+    margin-top: 35px;
+}
+.margin-top-25{
+    margin-top: 25px;
 }
 

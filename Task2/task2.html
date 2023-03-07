@@ -3,10 +3,13 @@
     <head>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="assets/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/icons.css">
+        <link rel="stylesheet" href="assets/icon.css">
         <script src="assets/bootstrap.bundle.min.js"></script>
         <link rel="icon" type="image/gif" href="assets/icon.png">
         <script src="assets/icons.js"></script>
+        <script src="js/script.js" defer></script>
+        <script src="assets/map.js" defer></script>
+        <script src="assets/polyfill.min.js" defer></script>
         <title>
             Jevelin Theme Medical Demo - Just another Jevelin WordPress Theme
         </title>
@@ -55,8 +58,8 @@
                 <img src="assets/icons1.png" alt="Icons">
             </div>
         </div>
-        <div class="d-flex">
-            <div>
+        <div class="d-flex justify-content-center">
+            <div class="firstTemplate">
                 <div>
                     <h2 class="font-weight-400 color-0078aa font-size-30">1-800-600-380</h2>
                 </div>
@@ -70,7 +73,7 @@
                     <button class="button1">See More</button>
                 </div>
             </div>
-            <div>
+            <div class="secondTemplate">
                 <div>
                     <h2><img src="" alt=""></h2>
                 </div>
@@ -84,7 +87,7 @@
                     <button class="button1">Book Now</button>
                 </div>
             </div>
-            <div>
+            <div class="firstTemplate">
                 <div>
                     <h2><img src="" alt=""></h2>
                 </div>
@@ -128,56 +131,56 @@
             <h2 class="font-size-36 font-weight-700 color-363636 text-center">How we can help you</h2>
             <h2 class="font-size-12 font-weight-400 color-363636 text-center">READ MORE ABOUT OUR SERVICES</h2>
         </div>
-        <div class="d-flex">
-            <div>
+        <div class="d-flex margin50">
+            <div class="margin25">
                 <img src="assets/eye.jpg" alt="Ophthalmology">
-                <h2 class="font-size-18 font-weight-600 color-363636">Ophthalmology</h2>
+                <h2 class="font-size-18 font-weight-600 color-363636 margin20">Ophthalmology</h2>
                 <p class="font-size-12 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
             </div>
-            <div>
+            <div class="margin25">
                 <img src="assets/cardio.jpg" alt="Cariology">
-                <h2 class="font-size-18 font-weight-600 color-363636">Cardiology</h2>
+                <h2 class="font-size-18 font-weight-600 color-363636 margin20">Cardiology</h2>
                 <p class="font-size-12 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
             </div>
-            <div>
+            <div class="margin25">
                 <img src="assets/dentist.jpg" alt="Dentistry">
-                <h2 class="font-size-18 font-weight-600 color-363636">Dentistry</h2>
+                <h2 class="font-size-18 font-weight-600 color-363636 margin20">Dentistry</h2>
                 <p class="font-size-12 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
             </div>
         </div>
-        <div class="d-flex">
-            <div>
+        <div class="d-flex margin50">
+            <div class="margin25">
                 <img src="assets/lab.jpg" alt="Laboratory">
-                <h2 class="font-size-18 font-weight-600 color-363636">Laboratory</h2>
+                <h2 class="font-size-18 font-weight-600 color-363636 margin20">Laboratory</h2>
                 <p class="font-size-12 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
             </div>
-            <div>
+            <div class="margin25">
                 <img src="assets/pedia.jpg" alt="Pediatrics">
-                <h2 class="font-size-18 font-weight-600 color-363636">Pediatrics</h2>
+                <h2 class="font-size-18 font-weight-600 color-363636 margin20">Pediatrics</h2>
                 <p class="font-size-12 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
             </div>
-            <div>
+            <div class="margin25">
                 <img src="assets/radio.jpg" alt="Radiology">
-                <h2 class="font-size-18 font-weight-600 color-363636">Radiology</h2>
+                <h2 class="font-size-18 font-weight-600 color-363636 margin20">Radiology</h2>
                 <p class="font-size-12 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
             </div>
         </div>
         <div class="d-flex">
             <div>
                 <div>
-                    <span>Jenna</span>
-                    <span>Berg</span>
+                    <span class="font-weight-700 color-363636 font-size-36">Jenna</span>
+                    <span class="color-363636 font-size-36">Berg</span>
                 </div>
                 <div>
-                    <h2>PROFESSIONAL DENTIST</h2>
+                    <span class="font-size-12 font-weight-400 color-0078aa">PROFESSIONAL DENTIST</span>
                 </div>
                 <div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem
+                    <p class="font-size-14 font-weight-400 color-363636">
+                        <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem</strong>
                     </p>
                 </div>
                 <div>
-                    <p>
+                    <p class="font-size-12 font-weight-400 color-363636">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem non sapien condimentum aliquet. Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.
                     </p>
                 </div>
@@ -219,49 +222,49 @@
                 <h2 class="text-center font-size-12 font-weight-400 color-363636">START TO BE HEALTHY TODAY</h2>
             </div>
             <div class="d-flex justify-content-center">
-                <div>
+                <div class="text-center">
                     <h2 class="font-size-24 font-weight-700 color-3a3a3a">Allergy Check</h2>
                     <div>
                         <span class="font-size-30 font-weight-400 color-3a3a3a">$</span>
                         <span class="font-size-60 font-weight-700 color-3a3a3a">255</span>
                     </div>
-                    <h4 class="font-size-12 font-weight-400 font-style-italic color-3a3a3a text-center">10 treatments</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Allergy Test</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Consultation</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Treatments</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">10 Procedures</h4>
+                    <h4 class="font-size-12 font-weight-400 font-style-italic color-3a3a3a">10 treatments</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Allergy Test</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Consultation</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Treatments</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">10 Procedures</h4>
                     <i></i>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Test Results</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Test Results</h4>
                     <button class="button1">Get Now</button>
                 </div>
-                <div>
+                <div class="text-center">
                     <h2 class="font-size-24 font-weight-700 color-3a3a3a">Eye Checkup</h2>
                     <div>
                         <span class="font-size-30 font-weight-400 color-3a3a3a">$</span>
                         <span class="font-size-60 font-weight-700 color-3a3a3a">108</span>
                     </div>
-                    <h4 class="font-size-12 font-weight-400 font-style-italic color-3a3a3a text-center">3 treatments</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Refraction</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Retinal Examination</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">External Examination</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">9 Procedures</h4>
+                    <h4 class="font-size-12 font-weight-400 font-style-italic color-3a3a3a">3 treatments</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Refraction</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Retinal Examination</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">External Examination</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">9 Procedures</h4>
                     <i></i>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Full Closure</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Full Closure</h4>
                     <button class="button3">Get Now</button>
                 </div>
-                <div>
+                <div class="text-center">
                     <h2 class="font-size-24 font-weight-700 color-3a3a3a">Dental Care</h2>
                     <div>
                         <span class="font-size-30 font-weight-400 color-3a3a3a">$</span>
                         <span class="font-size-60 font-weight-700 color-3a3a3a">320</span>
                     </div>
-                    <h4 class="font-size-12 font-weight-400 font-style-italic color-3a3a3a text-center">6 treatments</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Gum Care</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Consultation</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Treatments</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">6 Procedures</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Oral Hygiene</h4>
-                    <h4 class="font-size-12 font-weight-400 color-3a3a3a text-center">Full closure</h4>
+                    <h4 class="font-size-12 font-weight-400 font-style-italic color-3a3a3a">6 treatments</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Gum Care</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Consultation</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Treatments</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">6 Procedures</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Oral Hygiene</h4>
+                    <h4 class="font-size-12 font-weight-400 color-3a3a3a">Full closure</h4>
                     <button class="button1">Get Now</button>
                 </div>
             </div>
@@ -276,44 +279,44 @@
                 <!-- Accordion -->
             </div>
         </div>
-        <div>
+        <div id="map">
             <!-- Map -->
         </div>
-        <div class="d-flex">
+        <div class="d-flex justify-content-center">
             <div class="d-flex">
                 <div>
-                    <img src="" alt="">
+                    <i class="material-icons" id="location">location_on</i>
                 </div>
                 <div>
-                    <h2>ADDRESS</h2>
-                    <h2>Street number 5, Town, Country</h2>
+                    <h2 class="font-size-14 font-weight-700">ADDRESS</h2>
+                    <h2 class="font-size-12 font-weight-400">Street number 5, Town, Country</h2>
                 </div>
             </div>
             <div class="d-flex">
                 <div>
-                    <img src="" alt="">
+                    <i class='fas fa-clock' id="clock2"></i>
                 </div>
                 <div>
-                    <h2>WORK HOURS</h2>
-                    <h2>Mon. - Frie. 11AM - 19PM</h2>
-                </div>
-            </div>
-            <div class="d-flex">
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <h2>E-MAIL</h2>
-                    <h2>brandname@company.com</h2>
+                    <h2 class="font-size-14 font-weight-700">WORK HOURS</h2>
+                    <h2 class="font-size-12 font-weight-400">Mon. - Frie. 11AM - 19PM</h2>
                 </div>
             </div>
             <div class="d-flex">
                 <div>
-                    <img src="" alt="">
+                    <i class="material-icons" id="mail2">mail_outline</i>
                 </div>
                 <div>
-                    <h2>TELEPHONE</h2>
-                    <h2>(+371) 512 566 921</h2>
+                    <h2 class="font-size-14 font-weight-700">E-MAIL</h2>
+                    <h2 class="font-size-12 font-weight-400">brandname@company.com</h2>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div>
+                    <i class='fas fa-phone-alt' id="phone2"></i>
+                </div>
+                <div>
+                    <h2 class="font-size-14 font-weight-700">TELEPHONE</h2>
+                    <h2 class="font-size-12 font-weight-400">(+371) 512 566 921</h2>
                 </div>
             </div>
         </div>
@@ -362,48 +365,48 @@
                 </select>
             </div>
         </div>
-        <div class="d-flex footerDiv">
-            <div>
-                <h3 class="color-ffffff">Important Information</h3>
+        <div class="d-flex justify-content-between footerDiv">
+            <div class="width300">
+                <h3 class="color-ffffff font-size-21 font-weight-700">Important Information</h3>
                 <p class="color-bbbbbb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit, maximus molestie ex placerat non.</p>
             </div>
-            <div>
-                <h3 class="color-ffffff">Latest News</h3>
+            <div class="width300">
+                <h3 class="color-ffffff font-size-21 font-weight-700">Latest News</h3>
                 <div class="d-flex">
                     <div>
-                        <img src="" alt="">
+                        <img src="assets/stairs.jpg" alt="Stairs" class="footerImage">
                     </div>
                     <div>
-                        <h3 class="color-ffffff">NEWS</h3>
-                        <h3 class="color-ffffff">Welcome to our new building</h3>
+                        <h3 class="color-ffffff font-size-13 font-weight-400">NEWS</h3>
+                        <h3 class="color-ffffff font-size-16 font-weight-700">Welcome to our new building</h3>
                     </div>
                 </div>
                 <div class="d-flex">
                     <div>
-                        <img src="" alt="">
+                        <img src="assets/food.jpg" alt="Food" class="footerImage">
                     </div>
                     <div>
-                        <h3 class="color-ffffff">DIET</h3>
-                        <h3 class="color-ffffff">Healthier diet for better future</h3>
+                        <h3 class="color-ffffff font-size-13 font-weight-400">DIET</h3>
+                        <h3 class="color-ffffff font-size-16 font-weight-700">Healthier diet for better future</h3>
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="width300">
                 <div>
-                    <i class='far fa-map'></i>
-                    <span>Street number 5, Town, Country</span>
+                    <i class='far fa-map' id="map2"></i>
+                    <span class="color-bbbbbb">Street number 5, Town, Country</span>
                 </div>
                 <div>
-                    <i class='fas fa-phone-alt'></i>
-                    <span>(+371) 512 566 921</span>
+                    <i class='fas fa-phone-alt' id="phone"></i>
+                    <span class="color-bbbbbb">(+371) 512 566 921</span>
                 </div>
                 <div>
-                    <i></i>
-                    <span>brandname@company.com</span>
+                    <i class="material-icons" id="mail">mail_outline</i>
+                    <span class="color-bbbbbb">brandname@company.com</span>
                 </div>
                 <div>
-                    <i class='far fa-clock'></i>
-                    <span>Mon. - Frie. 11AM - 19PM</span>
+                    <i class='far fa-clock' id="clock"></i>
+                    <span class="color-bbbbbb">Mon. - Frie. 11AM - 19PM</span>
                 </div>
             </div>
         </div>

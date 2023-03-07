@@ -20,6 +20,9 @@ body{
 .font-size-12{
     font-size: 12px;
 }
+.font-size-13{
+    font-size: 13px;
+}
 .font-size-14{
     font-size: 14px;
 }
@@ -28,6 +31,9 @@ body{
 }
 .font-size-18{
     font-size: 18px;
+}
+.font-size-21{
+    font-size: 21px;
 }
 .font-size-24{
     font-size: 24px;
@@ -49,9 +55,6 @@ body{
 }
 .line-height-48{
     line-height: 48px;
-}
-.font-family-roboto{
-    font-family: "Roboto";
 }
 .font-style-italic{
     font-style: italic;
@@ -167,10 +170,59 @@ body{
 }
 .footerDiv{
     background-color: #1c1c1c;
+    padding: 100px;
 }
 .color-bbbbbb{
     color: #bbbbbb;
 }
 .color-ffffff{
     color: #ffffff;
+}
+#map2,
+#phone,
+#mail,
+#clock{
+    color: #f7f7f7;
+}
+.footerImage{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.width300{
+    width: 350px;
+}
+#location,
+#clock2,
+#mail2,
+#phone2{
+    font-size: 30px;
+    color: #3ce2ad;
+}
+#map{
+    height: 500px;
+    width: 100%;
+}
+.firstTemplate{
+    background-color: #b9f7f9;
+    border-radius: 5px;
+    width: 350px;
+    margin: 25px;
+    padding: 50px 20px 40px 20px;
+}
+.secondTemplate{
+    background-color: #d4fdfe;
+    border-radius: 5px;
+    width: 350px;
+    margin: 25px;
+    padding: 50px 20px 40px 20px;
+}
+.margin20{
+    margin: 20px 0px 20px 0px;
+}
+.margin25{
+    margin: 25px;
+}
+.margin50{
+    margin: 50px;
 }
