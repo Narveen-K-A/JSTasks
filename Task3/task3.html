@@ -4,29 +4,56 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="assets/bootstrap.min.css">
         <script src="assets/bootstrap.bundle.min.js"></script>
+        <script src="assets/icons.js"></script>
         <link rel="icon" type="image/gif" href="assets/icon.png">
+        <link rel="stylesheet" href="assets/icon.css">
+        <script src="assets/map.js" defer></script>
+        <script src="assets/polyfill.min.js" defer></script>
+        <script src="js/script.js" defer></script>
         <title>
             Home fitness - Jevelin WordPress theme.
         </title>
     </head>
     <body>
         <div class="bg1">        
-            <div class="d-flex justify-content-center">
-                <img src="assets/logo.png" alt="Logo">
+            <div class="d-flex justify-content-center padding-25 border-1-bottom">
+                <img src="assets/logo.png" alt="Logo" class="width95">
             </div>
-            <div class="d-flex justify-content-center">
-                <span class="color-ffffff">Home</span>
-                <span class="color-ffffff">Blog</span>
-                <span class="color-ffffff">Portfolio</span>
-                <span class="color-ffffff">Shop</span>
-                <span class="color-ffffff">Variations</span>
-                <span class="color-ffffff">Elements</span>
-                <span><i></i></span>
+            <div class="d-flex justify-content-center align-items-center padding-25 border-1-bottom">
+                <span class="color-ffffffd9 font-size-13 font-weight-700 headerfont padding-5-5">
+                    Home<i class="material-icons">keyboard_arrow_down</i>
+                </span>
+                <span class="color-ffffffd9 font-size-13 font-weight-700 headerfont padding-5-5">
+                    Blog<i class="material-icons">keyboard_arrow_down</i>
+                </span>
+                <span class="color-ffffffd9 font-size-13 font-weight-700 headerfont padding-5-5">
+                    Portfolio<i class="material-icons">keyboard_arrow_down</i>
+                </span>
+                <span class="color-ffffffd9 font-size-13 font-weight-700 headerfont padding-5-5">
+                    Shop<i class="material-icons">keyboard_arrow_down</i>
+                </span>
+                <span class="color-ffffffd9 font-size-13 font-weight-700 headerfont padding-5-5">
+                    Variations<i class="material-icons">keyboard_arrow_down</i>
+                </span>
+                <span class="color-ffffffd9 font-size-13 font-weight-700 headerfont padding-5-5">
+                    Elements<i class="material-icons">keyboard_arrow_down</i>
+                </span>
+                <span>
+                    <i class='fas fa-shopping-cart' id="cart"></i>
+                </span>
                 <span>0</span>
-                <span><i></i></span>
-                <span><i></i></span>
-                <span><i></i></span>
-                <span><i></i></span>
+                <span>
+                    <i class='fas fa-search' id="search"></i>
+                </span>
+                <span>
+                    <i class='fab fa-twitter' id="twitter"></i>
+                </span>
+                <span>
+                    <i class='fab fa-facebook-f' id="facebook"></i>
+                </span>
+                <span>
+                    <i class='fab fa-instagram' id="instagram"></i>
+                </span>
             </div>
             <div>
                 LOOKING FOR
@@ -42,85 +69,94 @@
                 <div>CLIENT REVIEWS</div>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <div class="width-800">
-                <h2 class="text-center">THE MOTIVATION</h2>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="d-flex justify-content-center padding100">
+            <div class="width-800 text-center">
+                <h2 class="font-size-30 font-weight-700 color-505050 padding-bottom-40">THE MOTIVATION</h2>
+                <p class="font-size-13 font-weight-400 color-8d8d8d padding-bottom-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <img src="assets/signature.png" alt="Signature" class="width-270">
             </div>
         </div>
-        <div class="bg2">
-            <h2>TRAINING</h2>
+        <div class="bg2 padding-100-100-150-100">
+            <h2 class="font-size-30 font-weight-300 color-ffffff">TRAINING</h2>
             <div>
-                <span>SERVICES</span>
-                <span>WE OFFER</span>
+                <span class="font-weight-700 font-size-48 color-f36347">SERVICES </span>
+                <span class="font-weight-700 font-size-48 color-ffffff">WE OFFER</span>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center margin-bottom100">
+            <div class="width350 padding-50-25-50-25 text-center border-bottom-2">
+                <div class="padding-bottom-20">
+                    <i class='fas fa-mobile-alt' id="mobile"></i>
+                </div>
+                <h3 class="font-size-18 font-weight-700 padding-bottom-20 color-505050">Responsive desing</h3>
+                <p class="font-size-14 font-weight-400 padding-bottom-20 color-8d8d8d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                <div class="padding-bottom-40">
+                    <span class="font-size-18 font-weight-700 color-505050">$ 25</span>
+                    <span class="font-size-18 font-weight-400 color-8d8d8d">/mon</span>
+                </div>
+            </div>
+            <div class="width350 padding-50-25-50-25 text-center border-bottom-2">
+                <div class="padding-bottom-20">
+                    <i class="material-icons" id="shuffle">shuffle</i>
+                </div>
+                <h3 class="font-size-18 font-weight-700 padding-bottom-20 color-505050">Multi-purpose</h3>
+                <p class="font-size-14 font-weight-400 padding-bottom-20 color-8d8d8d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                <div class="padding-bottom-40">
+                    <span class="font-size-18 font-weight-700 color-505050">$ 45</span>
+                    <span class="font-size-18 font-weight-400 color-8d8d8d">/mon</span>
+                </div>
+            </div>
+            <div class="width350 padding-50-25-50-25 text-center border-bottom-2">
+                <div class="padding-bottom-20">
+                    <i class="material-icons" id="timer">timer</i>
+                </div>
+                <h3 class="font-size-18 font-weight-700 padding-bottom-20 color-505050">One click install</h3>
+                <p class="font-size-14 font-weight-400 padding-bottom-20 color-8d8d8d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                <div class="padding-bottom-40">
+                    <span class="font-size-18 font-weight-700 color-505050">$ 63</span>
+                    <span class="font-size-18 font-weight-400 color-8d8d8d">/mon</span>
+                </div>
             </div>
         </div>
         <div class="d-flex">
-            <div>
-                <span><i></i></span>
-                <h3>Responsive desing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                <div>
-                    <span>$ 25</span>
-                    <span>/mon</span>
+            <div class="bg3 width-50per d-flex align-items-center justify-content-center">
+                <div class="border-1">
+                    <h4 class="font-size-30 font-weight-400 color-ffffff">WORKOUT</h4>
+                    <h3 class="font-size-60 font-weight-700 color-f36347">SCHEDULE</h3>
                 </div>
             </div>
-            <div>
-                <span><i></i></span>
-                <h3>Multi-purpose</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                <div>
-                    <span>$ 45</span>
-                    <span>/mon</span>
-                </div>
-            </div>
-            <div>
-                <span><i></i></span>
-                <h3>One click install</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                <div>
-                    <span>$ 63</span>
-                    <span>/mon</span>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex">
-            <div class="bg3">
-                <h4 class="color-ffffff font-size-30 font-weight-400">WORKOUT</h4>
-                <h1 class="color-f36347 font-size-60 font-weight-700">SCHEDULE</h1>
-            </div>
-            <div>
-                <div class="d-flex justify-content-between">
+            <div class="margin-165-50-125-50 width-50per">
+                <div class="d-flex justify-content-between padding-bottom-40">
                     <div>
-                        <h2>Cardio</h2>
-                        <h2>8:00 - 09:00, Mondays</h2>
+                        <h2 class="font1">Cardio</h2>
+                        <h2 class="font2">8:00 - 09:00, Mondays</h2>
                     </div>
                     <div>
                         <button class="button1">SIGN IN</button>
                     </div>
                 </div>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between padding-bottom-40">
                     <div>
-                        <h2>Functional training</h2>
-                        <h2>10:00 - 11:00, Friday</h2>
+                        <h2 class="font1">Functional training</h2>
+                        <h2 class="font2">10:00 - 11:00, Friday</h2>
                     </div>
                     <div>
                         <button class="button1">SIGN IN</button>
                     </div>
                 </div>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between padding-bottom-40">
                     <div>
-                        <h2>Weight lifting</h2>
-                        <h2>14:00 - 15:00, Wednesday</h2>
+                        <h2 class="font1">Weight lifting</h2>
+                        <h2 class="font2">14:00 - 15:00, Wednesday</h2>
                     </div>
                     <div>
                         <button class="button1">SIGN IN</button>
                     </div>
                 </div>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between padding-bottom-40">
                     <div>
-                        <h2>Boxing</h2>
-                        <h2>16:00 - 17:00, Every day</h2>
+                        <h2 class="font1">Boxing</h2>
+                        <h2 class="font2">16:00 - 17:00, Every day</h2>
                     </div>
                     <div>
                         <button class="button1">SIGN IN</button>
@@ -128,199 +164,204 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <div>
+        <div class="d-flex justify-content-around padding-150-150">
+            <div class="padding-25 text-center">
                 <h1 class="color-f36347 font-size-48 font-weight-700">3</h1>
-                <div>
-                    <i></i>
-                    <span>Fitness degrees</span>
+                <div class="padding-10">
+                    <i class="material-icons" id="book">book</i>
+                    <span class="font-size-13 font-weight-700 color-505050">Fitness degrees</span>
                 </div>
             </div>
-            <div>
+            <div class="padding-25 text-center">
                 <h1 class="color-f36347 font-size-48 font-weight-700">45</h1>
-                <div>
-                    <i></i>
-                    <span>Training programs</span>
+                <div class="padding-10">
+                    <i class='fas fa-video' id="video"></i>
+                    <span class="font-size-13 font-weight-700 color-505050">Training programs</span>
                 </div>
             </div>
-            <div>
+            <div class="padding-25 text-center">
                 <h1 class="color-f36347 font-size-48 font-weight-700">568</h1>
-                <div>
-                    <i></i>
-                    <span>Happy clients</span>
+                <div class="padding-10">
+                    <i class='far fa-heart' id="heart"></i>
+                    <span class="font-size-13 font-weight-700 color-505050">Happy clients</span>
                 </div>
             </div>
-            <div>
+            <div class="padding-25 text-center">
                 <h1 class="color-f36347 font-size-48 font-weight-700">17</h1>
-                <div>
-                    <i></i>
-                    <span>Fitness degrees</span>
+                <div class="padding-10">
+                    <i class='fas fa-briefcase' id="briefcase"></i>
+                    <span class="font-size-13 font-weight-700 color-505050">Fitness degrees</span>
                 </div>
             </div>
         </div>
         <div class="d-flex">
-            <div>
-                <div>
-                    <span>SALLY BREY</span>
-                    <span>/ PERSONAL TRAINER</span>
+            <div class="padding100 width-50per">
+                <div class="padding-bottom-40">
+                    <span class="font-size-30 font-weight-700 color-505050">SALLY BREY</span>
+                    <span class="font-size-24 font-weight-400 color-505050">/ PERSONAL TRAINER</span>
                 </div>
-                <p>
+                <p class="font-size-13 font-weight-400 color-8d8d8d padding-bottom-15">
                     Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae dignissim vel, consequat et dolor. Proin maximus posuere felis a tincidunt. Etiam sit amet ligula eget libero suscipit semper eget ornare magna. Phasellus non est ligula. Nulla auctor neque non tortor tincidunt fringilla. Nam in condimentum orci. Integer ac pellentesque sem. Nulla fringilla dui id metus viverra interdum.
                 </p>
-                <p>
+                <p class="font-size-13 font-weight-400 color-8d8d8d">
                     Mauris sed lacus sit amet ligula faucibus suscipit. Integer a mattis diam, at sagittis dolor. Aenean lectus ligula,mattis vitae ornare eget, sagittis non felis. Suspendisse et odio a leo fringilla efficitur ac eget eros. Integer cursus bibendum augue ac cursus.
                 </p>
             </div>
-            <div class="bg4">
-                <h4>ABOUT</h4>
-                <h1>TRAINER</h1>
-            </div>
-        </div>
-        <h2>WHAT MY CLIENTS SAY</h2>
-        <div class="d-flex">
-            <div class="d-flex">
-                <div>
-                    <i></i>
-                </div>
-                <div>
-                    <h3>Karren West</h3>
-                    <h3>BOXING </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam facilisis pharetra. Aenean consectetur lacinia diam a tincidunt. </p>
-                </div>
-            </div>
-            <div class="d-flex">
-                <div>
-                    <i></i>
-                </div>
-                <div>
-                    <h3>Suzi Merraga</h3>
-                    <h3>REHABILITATION</h3>
-                    <p>Aenean consectetur lacinia diam a tincidunt. Vivamus facilisis lacus non velit suscipit pellentesque. Nam ac mauris nec mi lobortis sollicitudin sed at lacus. neque eu lectus.</p>
-                </div>
-            </div>
-            <div class="d-flex">
-                <div>
-                    <i></i>
-                </div>
-                <div>
-                    <h3>Antony Gramm</h3>
-                    <h3>FUNCTIONAL TRAINING</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam facilisis pharetra. Aenean consectetur lacinia diam a tincidunt.</p>
+            <div class="bg4 width-50per d-flex align-items-center justify-content-center">
+                <div class="border-1">
+                    <h4 class="font-size-30 font-weight-400 color-ffffff">ABOUT</h4>
+                    <h3 class="font-size-60 font-weight-700 color-f36347">TRAINER</h3>
                 </div>
             </div>
         </div>
+        <h2 class="padding-100-100 text-center font-size-30 font-weight-700 color-505050">WHAT MY CLIENTS SAY</h2>
+        <div class="d-flex padding-0-100-100-100 justify-content-around">
+            <div class="d-flex width-400">
+                <div class="d-flex align-items-center margin-right-10">
+                    <i class='fas fa-quote-right' id="quote1"></i>
+                </div>
+                <div>
+                    <h3 class="font-size-13 font-weight-700 color-505050">Karren West</h3>
+                    <h3 class="font-size-13 font-weight-700 color-f36347">BOXING </h3>
+                    <p class="font-size-13 font-weight-400 color-8d8d8d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam facilisis pharetra. Aenean consectetur lacinia diam a tincidunt. </p>
+                </div>
+            </div>
+            <div class="d-flex width-400">
+                <div class="d-flex align-items-center margin-right-10">
+                    <i class='fas fa-quote-right' id="quote2"></i>
+                </div>
+                <div>
+                    <h3 class="font-size-13 font-weight-700 color-505050">Suzi Merraga</h3>
+                    <h3 class="font-size-13 font-weight-700 color-f36347">REHABILITATION</h3>
+                    <p class="font-size-13 font-weight-400 color-8d8d8d">Aenean consectetur lacinia diam a tincidunt. Vivamus facilisis lacus non velit suscipit pellentesque. Nam ac mauris nec mi lobortis sollicitudin sed at lacus. neque eu lectus.</p>
+                </div>
+            </div>
+            <div class="d-flex width-400">
+                <div class="d-flex align-items-center margin-right-10">
+                    <i class='fas fa-quote-right' id="quote3"></i>
+                </div>
+                <div>
+                    <h3 class="font-size-13 font-weight-700 color-505050">Antony Gramm</h3>
+                    <h3 class="font-size-13 font-weight-700 color-f36347">FUNCTIONAL TRAINING</h3>
+                    <p class="font-size-13 font-weight-400 color-8d8d8d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam facilisis pharetra. Aenean consectetur lacinia diam a tincidunt.</p>
+                </div>
+            </div>
+        </div>
         <div class="d-flex">
-            <div>
+            <div id="map">
                 <!-- Map -->
             </div>
-            <div>
-                <h2>HOW & WHERE TO FIND ME</h2>
-                <h4>Street number and town name 23</h4>
-                <div class="d-flex">
-                    <div>
-                        <i></i>
+            <div class="padding100">
+                <h2 class="font-size-30 font-weight-700 color-505050 padding-bottom-40">HOW & WHERE TO FIND ME</h2>
+                <h4 class="font-size-13 font-weight-400 color-8d8d8d padding-bottom-15">Street number and town name 23</h4>
+                <div class="d-flex margin-25">
+                    <div class="padding-10">
+                        <i class="material-icons" id="location">location_on</i>
                     </div>
                     <div>
-                        <h5>Location</h5>
-                        <h5>Street number and town name 23</h5>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div>
-                        <i></i>
-                    </div>
-                    <div>
-                        <h5>Email</h5>
-                        <h5>info@brandname.com</h5>
+                        <h5 class="font-size-13 font-weight-700 color-505050">Location</h5>
+                        <h5 class="font-size-13 font-weight-400 color-8d8d8d">Street number and town name 23</h5>
                     </div>
                 </div>
-                <div class="d-flex">
-                    <div>
-                        <i></i>
+                <div class="d-flex margin-25">
+                    <div class="padding-10">
+                        <i class="material-icons" id="mail2">mail_outline</i>
                     </div>
                     <div>
-                        <h5>Phone number</h5>
-                        <h5>425 521 432</h5>
+                        <h5 class="font-size-13 font-weight-700 color-505050">Email</h5>
+                        <h5 class="font-size-13 font-weight-400 color-8d8d8d">info@brandname.com</h5>
+                    </div>
+                </div>
+                <div class="d-flex margin-25">
+                    <div class="padding-10">
+                        <i class='fas fa-phone-alt' id="phone2"></i>
+                    </div>
+                    <div>
+                        <h5 class="font-size-13 font-weight-700 color-505050">Phone number</h5>
+                        <h5 class="font-size-13 font-weight-400 color-8d8d8d">425 521 432</h5>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="bg5">
-            <h4>SPECIAL OFFER!</h4>
-            <h2>SIGN UP NOW & GET A FREE GIFT LESSON!</h2>
-            <button>SIGN UP NOW</button>
+        <div class="bg5 text-center padding-100-100">
+            <h4 class="font-weight-400 font-size-24 color-ffffff">SPECIAL OFFER!</h4>
+            <h2 class="font-weight-700 font-size-48 color-ffffff">SIGN UP NOW & GET A</h2>
+            <h2 class="font-weight-700 font-size-48 color-ffffff">FREE GIFT LESSON!</h2>
+            <button class="button2">SIGN UP NOW!</button>
         </div>
-        <div class="d-flex">
-            <div>
-                <P>
+        <div class="d-flex justify-content-between padding-0-60-85-60 bg-color-262626">
+            <div class="width-300">
+                <P class="color-e3e3e3">
                     Duis semper mauris vitae purus rhoncus suscipit. Nunc dictum dapibus tellus, at viverra risus pharetra id. Nulla facilisi. Ut mollis et augue non gravida. Sed ipsum urna, venenatis ut vehicula nec, ultrices quis sapien.
                 </P>
             </div>
-            <div>
-                <h4>Contacts</h4>
-                <div>
-                    <i></i>
-                    <span>County, Street name - number</span>
+            <div class="width-300">
+                <div class="padding-bottom-15">
+                    <i class='far fa-map' id="map1"></i>
+                    <span class="color-e3e3e3">County, Street name - number</span>
                 </div>
-                <div>
-                    <i></i>
-                    <span>032 267 899 442</span>
+                <div class="padding-bottom-15">
+                    <i class='fas fa-phone-alt' id="phone"></i>
+                    <span class="color-e3e3e3">032 267 899 442</span>
                 </div>
-                <div>
-                    <i></i>
-                    <span>company@name.com</span>
+                <div class="padding-bottom-15">
+                    <i class="material-icons" id="mail">mail_outline</i>
+                    <span class="color-e3e3e3">company@name.com</span>
                 </div>
-                <div>
-                    <i></i>
-                    <span>Mon.-Fri.: 10-20 Sun.: 12-16</span>
-                </div>
-            </div>
-            <div>
-                <div class="d-flex">
-                    <div>
-                        <img src="assets/footer1.jpg" alt="Footer1" class="footerImage">
-                    </div>
-                    <div>0</div>
-                    <div>
-                        <h4></h4>
-                        <h4><b></b></h4>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div>
-                        <img src="assets/footer2.jpg" alt="Footer2" class="footerImage">
-                    </div>
-                    <div>0</div>
-                    <div>
-                        <h4></h4>
-                        <h4><b></b></h4>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div>
-                        <img src="assets/footer3.jpg" alt="Footer3" class="footerImage">
-                    </div>
-                    <div>0</div>
-                    <div>
-                        <h4></h4>
-                        <h4><b></b></h4>
-                    </div>
+                <div class="padding-bottom-15">
+                    <i class='far fa-clock' id="clock"></i>
+                    <span class="color-e3e3e3">Mon.-Fri.: 10-20 Sun.: 12-16</span>
                 </div>
             </div>
-            <div>
+            <div class="width-225">
+                <div class="d-flex padding-bottom-25 border-bottom-1">
+                    <div>
+                        <img src="assets/footer1.jpg" alt="Footer1" class="footerImage margin-right-10">
+                    </div>
+                    <!-- <div>0</div> -->
+                    <div class="color-ffffff">
+                        <span class="cursor-pointer font-weight-400 font-size-13 footer-font2">TRAVEL</span>,
+                        <span class="cursor-pointer font-weight-400 font-size-13 footer-font2">UNCATEGORIZED</span>
+                        <h4 class="cursor-pointer font-size-13 footer-font font-weight-700">The team watchers</h4>
+                    </div>
+                </div>
+                <div class="d-flex padding-bottom-25 padding-top-25 border-bottom-1">
+                    <div>
+                        <img src="assets/footer2.jpg" alt="Footer2" class="footerImage margin-right-10">
+                    </div>
+                    <!-- <div>0</div> -->
+                    <div class="color-ffffff">
+                        <span class="cursor-pointer font-weight-400 font-size-13 footer-font2">DESIGN</span>,
+                        <span class="cursor-pointer font-weight-400 font-size-13 footer-font2">TRAVEL</span>
+                        <h4 class="cursor-pointer font-size-13 footer-font font-weight-700">Creative day off</h4>
+                    </div>
+                </div>
+                <div class="d-flex padding-bottom-25 padding-top-25">
+                    <div>
+                        <img src="assets/footer3.jpg" alt="Footer3" class="footerImage margin-right-10">
+                    </div>
+                    <!-- <div>0</div> -->
+                    <div class="color-ffffff">
+                        <span class="cursor-pointer font-weight-400 font-size-13 footer-font2">NEWS</span>,
+                        <span class="cursor-pointer font-weight-400 font-size-13 footer-font2">TRAVEL</span>
+                        <h4 class="cursor-pointer font-size-13 footer-font font-weight-700">The smell of roses</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="width-225">
                 <div>
-                    <img src="assets/footerset1.jpg" alt="Footer Image 1" class="footerImage">
-                    <img src="assets/footerset2.jpg" alt="Footer Image 2" class="footerImage">
-                    <img src="assets/footerset3.jpg" alt="Footer Image 3" class="footerImage">
+                    <img src="assets/footerset1.jpg" alt="Footer Image 1" class="footer-Image">
+                    <img src="assets/footerset2.jpg" alt="Footer Image 2" class="footer-Image">
+                    <img src="assets/footerset3.jpg" alt="Footer Image 3" class="footer-Image">
                 </div>
                 <div>
-                    <img src="assets/footerset4.jpg" alt="Footer Image 4" class="footerImage">
-                    <img src="assets/footerset5.jpg" alt="Footer Image 5" class="footerImage">
-                    <img src="assets/footerset6.jpg" alt="Footer Image 6" class="footerImage">
+                    <img src="assets/footerset4.jpg" alt="Footer Image 4" class="footer-Image">
+                    <img src="assets/footerset5.jpg" alt="Footer Image 5" class="footer-Image">
+                    <img src="assets/footerset6.jpg" alt="Footer Image 6" class="footer-Image">
                 </div>
                 <div>
-                    <img src="assets/footerset7.jpg" alt="Footer Image 7" class="footerImage">
-                    <img src="assets/footerset8.jpg" alt="Footer Image 8" class="footerImage">
+                    <img src="assets/footerset7.jpg" alt="Footer Image 7" class="footer-Image">
+                    <img src="assets/footerset8.jpg" alt="Footer Image 8" class="footer-Image">
                 </div>
             </div>
         </div>

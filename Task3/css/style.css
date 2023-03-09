@@ -33,7 +33,9 @@ body{
     margin-left: 30px;
 }
 .footerImage{
-    width: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
 }
 .footerImage2{
     width: 50px;
@@ -51,14 +53,39 @@ body{
 .font-weight-700{
     font-weight: 700;
 }
+.font-weight-300{
+    font-weight: 300;
+}
 .font-size-30{
     font-size: 30px;
+}
+.font-size-24{
+    font-size: 24px;
+}
+.font-size-13{
+    font-size: 16px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.font-size-18{
+    font-size: 18px;
 }
 .font-size-48{
     font-size: 48px;
 }
 .font-weight-400{
     font-weight: 400;
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.padding-100-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.padding-0-60-85-60{
+    padding: 10px 60px 85px 60px
 }
 .button1{
     border: 2px solid #e4e4e4;
@@ -82,4 +109,216 @@ body{
     border-radius: 100px;
     font-size: 13px;
     color: #ffffff;
+}
+.button2{
+    padding: 14px 31px;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #3f3f3f00;
+    outline: none;
+    font-weight: 700;
+    border-radius: 35px;
+    border: 2px solid #ffffff33;
+}
+.button2:hover{
+    padding: 14px 31px;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #ffffff33;
+    outline: none;
+    font-weight: 700;
+    border-radius: 35px;
+    border: 2px solid #ffffff33;
+}
+.width-300{
+    width: 250px;
+}
+.bg-color-262626{
+    background-color: #262626;
+}
+.color-e3e3e3{
+    color: #e3e3e3;
+}
+.padding-bottom-15{
+    padding-bottom: 15px;
+}
+#map1,
+#phone,
+#mail,
+#clock{
+    color: #ffffff;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.footer-font:hover{
+    font-size: 16px;
+    cursor: pointer;
+    color: #f36347;
+}
+.padding-bottom-25{
+    padding-bottom: 25px;
+}
+.margin-right-10{
+    margin-right: 10px;
+}
+.padding-top-25{
+    padding-top: 25px;
+}
+.border-bottom-1{
+    border-bottom: 1px solid #505050;
+}
+.footer-font2:hover{
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #505050;
+}
+.footer-Image{
+    width: 60px;
+    height: 60px;
+    margin: 3px 3px 3px 5px;
+    cursor: pointer;
+}
+.width-225{
+    width: 225px;
+}
+.width600{
+    width: 600px;
+}
+#map{
+    height: 800px; 
+    width: 650px; 
+}
+.padding100{
+    padding: 150px 100px 150px 100px;
+}
+.color-505050{
+    color: #505050;
+}
+.color-8d8d8d{
+    color: #8d8d8d;
+}
+.padding-bottom-40{
+    padding-bottom: 40px;
+}
+.margin-25{
+    margin: 25px;
+}
+.padding-10{
+    padding: 10px;
+}
+#location,
+#mail2,
+#phone2{
+    font-size: 30px;
+}
+.padding-0-100-100-100{
+    padding: 0px 100px 100px 100px;
+}
+#quote1,
+#quote2,
+#quote3{
+    font-size: 25px;
+    color: #8d8d8d;
+}
+.width-400{
+    width: 250px;
+}
+.width-50per{
+    width: 50%;
+}
+.border-1{
+    border: 1px solid #ffffff12;
+    padding: 25px;
+}
+.padding-150-150{
+    padding: 125px 50px 125px 50px;
+}
+.padding-25{
+    padding: 25px;
+}
+#book,
+#video,
+#heart,
+#briefcase{
+    font-size: 35px;
+    color: #8d8d8d;
+}
+.font1{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    border-left: 3px solid #f36347;
+    padding: 2px 0;
+    padding-left: 10px;
+    color: #505050;
+}
+.font2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 14px;
+    color: #8d8d8d;
+}
+.margin-165-50-125-50{
+    margin: 165px 75px 125px 75px;
+}
+.width-270{
+    width: 270px;
+    cursor: pointer;
+}
+.padding-100-100-150-100{
+    padding: 110px 125px 195px 125px;
+}
+.width350{
+    width: 375px;
+}
+.padding-50-25-50-25{
+    padding: 50px 25px 50px 25px;
+}
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
+#mobile,
+#shuffle,
+#timer{
+    font-size: 25px;
+    color: #505050;
+}
+.margin-bottom100{
+    margin-bottom: 100px;
+}
+.border-bottom-2{
+    border-bottom: 1px solid #efefef;
+}
+.width95{
+    width: 95px;
+}
+.border-1-bottom{
+    border-bottom: 1px solid #ffffff12;
+}
+.color-ffffffd9{
+    color: #ffffffd9;
+}
+.headerfont:hover{
+    font-size: 16px;
+    font-weight: 700px;
+    color: #ffffff;
+    cursor: pointer;
+}
+#cart,
+#search,
+#twitter,
+#facebook,
+#instagram{
+    font-size: 20px;
+    color: #ffffffd9;
+    cursor: pointer;
+    margin: 5px;
+}
+.padding-5-5{
+    padding-left: 5px;
+    padding-right: 5px;
 }
