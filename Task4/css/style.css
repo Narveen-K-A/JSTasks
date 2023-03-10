@@ -8,14 +8,47 @@ body{
 .bg1{
     background-image: url('../assets/background.jpg');
 }
+.bg2{
+    background-image: url('../assets/background2.jpg');
+}
+.font-weight-400{
+    font-weight: 400;
+}
 .font-weight-700{
     font-weight: 700;
 }
 .font-size-13{
-    font-size: 13px;
+    font-size: 16px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-40{
+    font-size: 40px;
+}
+.bg-color-353535{
+    background-color: #353535;
+}
+.bg-color-242424{
+    background-color: #242424;
+}
+.bg-color-1c1c1c{
+    background-color: #1c1c1c;
 }
 .color-8d8d8d{
     color: #8d8d8d;
+}
+.color-ffffff{
+    color: #ffffff;
+}
+.color-cccccc{
+    color: #cccccc;
+}
+.color-bebebe{
+    color: #bebebe;
+}
+.color-f3ba40{
+    color: #f3ba40;
 }
 .header:hover{
     color: #ffffff;
@@ -24,5 +57,187 @@ body{
     line-height: 40px;
 }
 .cursor-pointer{
+    cursor: pointer;
+}
+.padding-bottom20{
+    padding-bottom: 20px;
+}
+.padding-bottom15{
+    padding-bottom: 15px;
+}
+.padding-top20{
+    padding-top: 20px;
+}
+.border-bottom1{
+    border-bottom: 1px solid #353535;
+    width: 300px;
+}
+.padding-top25-bottom25{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.padding-150-175-150-175{
+    padding: 100px 125px 100px 125px;
+}
+.padding-150-250-100-250{
+    padding: 125px 425px 100px 425px;
+}
+.padding10{
+    padding: 15px;
+}
+.padding-0-200-200-200{
+    padding: 0px 150px 10px 150px;
+}
+.padding-top75-bottom75{
+    padding: 100px 0px;
+}
+.margin-left20{
+    margin-left: 20px;
+}
+.margin-top20-bottom20{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.margin-left25-right25{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.margin-bottom25{
+    margin-bottom: 25px;
+}
+.shuffle:hover{
+    color: #e38f07;
+}
+.footer-font1{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-font2:hover{
+    font-size: 16px;
+    font-weight: 700px;
+    cursor: pointer;
+    color: #f9c25b;
+}
+.width-33per{
+    width: 33%;
+}
+#facebook,
+#twitter,
+#instagram{
+    color: #bebebe;
+    font-size: 20px;
+    cursor: pointer;
+}
+#map,
+#phone,
+#mail,
+#clock{
+    color: #bebebe;
+    font-size: 20px;
+}
+#facebook2,
+#twitter2,
+#instagram2,
+#googleplus2,
+#medium2,
+#telegram2{
+    color: #cccccc;
+    font-size: 20px;
+}
+.input-type{
+    border: none;
+    outline: none;
+    padding: 3px 30px;
+    width: 300px;
+    border: 1px solid #e3e3e3;
+    color: #8d8d8d;
+    margin-right: 15px;
+    display: block;
+    border-radius: 10px;
+    line-height: 48px;
+}
+.button1{
+    color: #353535;
+    border-radius: 10px;
+    line-height: 40px;
+    padding: 10px 35px;
+    font-weight: 700;
+    background-color: #f3ba40;
+    outline: none;
+    border: none;
+}
+.button1:hover{
+    background-color: #ffd83c;
+}
+.border-circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #8d8d8d;
+    text-align: center;
+    padding: 15px;
+    margin: 8px;
+}
+.border-circle:hover{
+    cursor: pointer;
+    background-color: #f3ba40;
+}
+.width-50per{
+    width: 50%;
+}
+.template1{
+    background-color: #242424;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0px 60px 80px 60px;
+}
+.template2{
+    background-color: #242424;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0px 60px 80px 60px;
+}
+.font1{
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.font2{
+    font-weight: 400;
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+.font3{
+    font-weight: 700;
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+.padding-top50-bottom50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.border-left1{
+    border-right: 1px solid #353535;
+    margin-right: 25px;
+    padding-right: 25px;
+}
+.margin-top-35{
+    margin-top: 90px;
+}
+#visa,
+#master,
+#bitcoin,
+#paypal{
+    color: #bebebe;
+    font-size: 25px;
+    margin: 10px 15px;
+}
+#visa:hover,
+#master:hover,
+#bitcoin:hover,
+#paypal:hover{
+    color: #8d8d8d;
     cursor: pointer;
 }
