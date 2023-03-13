@@ -68,6 +68,10 @@ body{
 .padding-top20{
     padding-top: 20px;
 }
+.padding-top100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .border-bottom1{
     border-bottom: 1px solid #353535;
     width: 300px;
@@ -91,6 +95,10 @@ body{
 .padding-top75-bottom75{
     padding: 100px 0px;
 }
+.padding-left125-right125{
+    padding-left: 125px;
+    padding-right: 125px;
+}
 .margin-left20{
     margin-left: 20px;
 }
@@ -98,9 +106,17 @@ body{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+.margin-top16-bottom10{
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
 .margin-left25-right25{
     margin-left: 25px;
     margin-right: 25px;
+}
+.margin-left10-right10{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .margin-bottom25{
     margin-bottom: 25px;
@@ -218,6 +234,9 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.padding-right-25{
+    padding-right: 25px;
+}
 .border-left1{
     border-right: 1px solid #353535;
     margin-right: 25px;
@@ -225,6 +244,9 @@ body{
 }
 .margin-top-35{
     margin-top: 90px;
+}
+.margin-top-5{
+    margin-top: 5px;
 }
 #visa,
 #master,
@@ -240,4 +262,209 @@ body{
 #paypal:hover{
     color: #8d8d8d;
     cursor: pointer;
+}
+.width-80{
+    width: 80px;
+}
+.round{
+    height: 70px;
+    width: 70px;
+    background-color: #f4f4f4;
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.padding-bottom-100{
+    padding-bottom: 100px;
+}
+.comments{
+    position: absolute;
+    top: -3px;
+    right: 25px;
+    padding: 4px 7px;
+    line-height: 1;
+    background-color: #f3ba40;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 13px;
+    box-shadow: 0px 2px 3px 1px rgb(0 0 0 / 12%);
+    cursor: default;
+}
+.pos-rel{
+    position: relative;
+}
+#tag1,
+#tag2,
+#tag3,
+#tag4,
+#tag5,
+#tag6{
+    color: #cccccc;
+    margin-right: 5px;
+}
+#quote-left{
+    color: #f3ba40;
+    font-size: 25px;
+    margin-right: 5px;
+}
+.border-top1{
+    border-top: 1px solid #8d8d8d;
+    padding-top: 10px;
+}
+.yellow-hover:hover{
+    color:  #f3ba40;
+    cursor: pointer;
+}
+.white-hover:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+#quote-right1,
+#quote-right2{
+    color: #cccccc;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.width100{
+    width: 100px;
+}
+.width200{
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-top: 20px;
+}
+.border-bottom2{
+    border-bottom: 1px solid #8d8d8d;
+}
+.border-bottom3{
+    border-bottom: 1px solid #bebebe;
+}
+.padding-top-100{
+    padding-top: 100px;
+}
+.font4{
+    font-weight: 600;
+    color: #f3ba40;
+    font-size: 16px;
+}
+.font5{
+    text-align: center;
+    line-height: 36px;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 36px;
+}
+.width-25per{
+    width: 25%;
+}
+.font6{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.margin10{
+    margin: 15px;
+}
+.width-250{
+    width: 250px;
+}
+.font7{
+    font-weight: 400;
+    color: #cccccc;
+    font-size: 16px;
+}
+#fb1,
+#fb2,
+#fb3,
+#fb4,
+#fb5,
+#fb6,
+#fb7,
+#fb8,
+#fb9,
+#fb10,
+#tw1,
+#tw2,
+#tw3,
+#tw4,
+#tw5,
+#tw6,
+#tw7,
+#tw8,
+#tw9,
+#tw10,
+#li1,
+#li2,
+#li3,
+#li4,
+#li5,
+#li6,
+#li7,
+#li8,
+#li9,
+#li10{
+    font-size: 20px;
+    color: #cccccc;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.width-290{
+    width: 290px;
+}
+.padding-top20-bottom40{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.width-615{
+    width: 615px;
+}
+.font8{
+    line-height: 58px;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 48px;
+}
+.width-500{
+    width: 425px;
+}
+.button2{
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #f2f2f200;
+    color: #ffffff;
+    border: 2px solid transparent;
+    border: 2px solid #8a8a8b;
+    box-shadow: 0 6px 40px #00000040;
+    padding: 16px 36px;
+    text-align: center;
+    font-weight: 700;
+}
+.button2:hover{
+    color: #f3ba40;
+    border: 2px solid #f3ba40;
+}
+#pdf:hover{
+    color: #f3ba40;
+}
+#tw11,
+#fb11,
+#ig11{
+    font-size: 20px;
+    color: #cccccc;
+    margin-right: 10px;
+
+}
+#tw11:hover,
+#fb11:hover,
+#ig11:hover{
+    cursor: pointer;
+    color: #ffffff;
 }
