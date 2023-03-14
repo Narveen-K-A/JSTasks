@@ -29,6 +29,9 @@ body{
 .font-size-60{
     font-size: 60px;
 }
+.font-size-44{
+    font-size: 44px;
+}
 .font-size-35{
     font-size: 35px;
 }
@@ -38,23 +41,23 @@ body{
 .font-size-20{
     font-size: 20px;
 }
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-15{
+    font-size: 15px;
+}
 .font-size-14{
     font-size: 14px;
 }
 .font-size-12{
     font-size: 12px;
 }
-.font-size-15{
-    font-size: 15px;
-}
-.font-size-16{
-    font-size: 16px;
-}
-.font-size-18{
-    font-size: 18px;
-}
-.font-size-44{
-    font-size: 44px;
+.color-ff7012{
+    color: #ff7012;
 }
 .color-7d7d7d{
     color: #7d7d7d;
@@ -77,14 +80,23 @@ body{
 .color-686868{
     color: #686868;
 }
-.width-560{
-    width: 560px;
+.bg-color-171717{
+    background-color: #171717;
+}
+.bg-color-ff7012{
+    background-color: #ff7012;
 }
 .width-960{
     width: 960px;
 }
+.width-560{
+    width: 560px;
+}
 .width-220{
     width: 220px;
+}
+.width55{
+    width: 55px;
 }
 .cursor-pointer{
     cursor: pointer;
@@ -95,9 +107,6 @@ body{
 .border-none{
     border: none;
 }
-.color-ff7012{
-    color: #ff7012;
-}
 .header:hover{
     font-weight: 600;
     color: #ff7012;
@@ -105,12 +114,6 @@ body{
 .header1:hover{
     font-weight: 700;
     color: #ff7012;
-}
-.bg-color-171717{
-    background-color: #171717;
-}
-.bg-color-ff7012{
-    background-color: #ff7012;
 }
 .new-collection{
     height: 30px;
@@ -171,9 +174,6 @@ input{
 }
 .line-height-30{
     line-height: 30px;
-}
-.width55{
-    width: 55px;
 }
 .padding5{
     padding: 5px 20px 5px 20px;
