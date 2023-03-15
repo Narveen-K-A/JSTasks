@@ -54,7 +54,7 @@ body{
     font-size: 14px;
 }
 .font-size-12{
-    font-size: 12px;
+    font-size: 13px;
 }
 .color-ff7012{
     color: #ff7012;
@@ -137,6 +137,7 @@ body{
     border-radius: 3px;
     background-color: #171717;
     color: #ffffff;
+    margin-left: 10px;
 }
 .purchase:hover{
     background-color: #ff7012;
@@ -145,11 +146,11 @@ input{
     font-size: 13px;
     color: #7d7d7d;
     background-color: #f8f8f8;
-    border-color: #ebebeb;
     border-radius: 5px;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 20px 0px 20px;
     height: 50px;
     width: 720px;
+    border: 1px solid #ebebeb;
 }
 .padding-copy{
     border-top: 1px solid #ebebeb;
@@ -189,7 +190,7 @@ input{
     line-height: 120%;
 }
 .footer-font:hover{
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     color: #ff7012;
     cursor: pointer;
@@ -222,8 +223,9 @@ input{
 #clockIcon,
 #truckIcon,
 #walletIcon{
-    color: #686868;
+    color: #a9a9a9;
     font-size: 50px;
+    margin-bottom: 35px;
 }
 .padding80{
     padding: 80px;
@@ -282,5 +284,60 @@ input{
 }
 .margin-top-25{
     margin-top: 25px;
+}
+.margin-bottom25{
+    margin-bottom: 25px;
+}
+.padding-bottom100{
+    padding-bottom: 100px;
+}
+.margin-right5{
+    margin-right: 5px;
+}
+::placeholder {
+    font-style:italic;
+}
+
+#animation1{
+    animation-name: anime1;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime1{
+    0%  {bottom:25px;}
+    100%    {bottom:0px;}
+}
+#animation2{
+    animation-name: anime2;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime2{
+    0%  {bottom:25px;}
+    100%    {bottom:0px;}
+}
+#animation3{
+    animation-name: anime3;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime3{
+    0%  {bottom:25px;}
+    100%    {bottom:0px;}
+}
+
+#transform{
+    transform-origin: bottom right;
+    transform: rotate(45deg);
+}
+
+@media (max-width: 1024px){
+	
+}
+@media (max-width: 768px){
+	
+}
+@media (max-width: 425px){
+	
 }
 
