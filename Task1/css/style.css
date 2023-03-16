@@ -325,11 +325,29 @@ input{
     0%  {bottom:25px;}
     100%    {bottom:0px;}
 }
-
-#transform{
+#image1-animation{
+    animation-name: anime4;
+    animation-duration: 1s;
     transform-origin: bottom right;
-    transform: rotate(45deg);
+    position: relative;
+    animation-fill-mode: forwards;
 }
+@keyframes anime4{
+    0%  {transform: rotate(45deg);}
+    100%    {transform: rotate(0deg);}
+}
+#image2-animation{
+    animation-name: anime5;
+    animation-duration: 1s;
+    transform-origin: bottom left;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes anime5{
+    0%  {transform: rotate(45deg);}
+    100%    {transform: rotate(0deg);}
+}
+
 
 @media (max-width: 1024px){
 	

@@ -223,9 +223,10 @@ body{
 #quote3{
     font-size: 25px;
     color: #8d8d8d;
+    padding: 10px;
 }
 .width-400{
-    width: 250px;
+    width: 325px;
 }
 .width-50per{
     width: 50%;
@@ -288,7 +289,7 @@ body{
     color: #505050;
 }
 .margin-bottom100{
-    margin-bottom: 100px;
+    margin: 100px 100px 0px 100px;
 }
 .border-bottom-2{
     border-bottom: 1px solid #efefef;
@@ -345,3 +346,343 @@ body{
     border-radius: 10px;
     padding: 2px 4px;
 }
+.bg-color-ffffff{
+    background-color: #ffffff;
+}
+.box{
+    box-shadow: 0 15px 25px -7px rgba(0,0,0,0.09), 0 -12px 10px -10px rgba(0,0,0,0.04);
+}
+.height-500{
+    height: 700px;
+}
+
+#animation1{
+    animation-name: anime1;
+    animation-duration: 2s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes anime1{
+    0%  {top:0px;}
+    100%    {top:-200px;}
+}
+
+#animation2{
+    animation-name: anime2;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime2{
+    0%  {top:100px;}
+    100%    {top:0px;}
+}
+
+#animation3{
+    animation-name: anime3;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime3{
+    0%  {top:100px;}
+    100%    {top:0px;}
+}
+
+#animation4{
+    animation-name: anime4;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime4{
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0px);
+     }
+}
+
+#animation5{
+    animation-name: anime5;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime5{
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0px);
+     }
+}
+
+#animation6{
+    animation-name: anime6;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime6{
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0px);
+     }
+}
+
+#animation7{
+    animation-name: anime7;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime7{
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0px);
+     }
+}
+
+#value1::after {
+    font: 700 50px system-ui;
+    content: counter(count);
+    animation: counter1 1s linear alternate;
+    counter-reset: count 0;
+    animation-fill-mode: forwards;
+  }
+  
+@keyframes counter1{
+    0% {
+        counter-increment: count 0;
+    }
+    33% {
+        counter-increment: count 1;
+    }
+    66% {
+        counter-increment: count 2;
+    }
+    100% {
+        counter-increment: count 3;
+    }
+  }
+
+#value2::after {
+    font: 700 50px system-ui;
+    content: counter(count);
+    animation: counter2 1s linear alternate;
+    counter-reset: count 0;
+    animation-fill-mode: forwards;
+  }
+  
+@keyframes counter2{
+    0% {
+      counter-increment: count 0;
+    }
+    5% {
+        counter-increment: count 2;
+      }
+    10% {
+        counter-increment: count 4;
+    }
+    15% {
+        counter-increment: count 6;
+    }
+    20% {
+        counter-increment: count 8;
+    }
+    25% {
+        counter-increment: count 10;
+    }
+    30% {
+        counter-increment: count 12;
+    }
+    35% {
+        counter-increment: count 14;
+    }
+    40% {
+        counter-increment: count 18;
+    }
+    45% {
+        counter-increment: count 20;
+    }
+    50% {
+        counter-increment: count 22;
+    }
+    55% {
+        counter-increment: count 24;
+    }
+    60% {
+        counter-increment: count 26;
+    }
+    65% {
+        counter-increment: count 28;
+    }
+    70% {
+        counter-increment: count 30;
+    }
+    75% {
+        counter-increment: count 32;
+    }
+    80% {
+        counter-increment: count 36;
+    }
+    85% {
+        counter-increment: count 38;
+    }
+    90% {
+        counter-increment: count 40;
+    }
+    95% {
+        counter-increment: count 42;
+    }
+    100% {
+        counter-increment: count 45;
+    }
+  }
+
+#value3::after {
+    font: 700 50px system-ui;
+    content: counter(count);
+    animation: counter3 1s linear alternate;
+    counter-reset: count 0;
+    animation-fill-mode: forwards;
+  }
+  
+@keyframes counter3{
+    0% {
+      counter-increment: count 0;
+    }
+    5% {
+        counter-increment: count 25;
+      }
+    10% {
+        counter-increment: count 50;
+    }
+    15% {
+        counter-increment: count 75;
+    }
+    20% {
+        counter-increment: count 100;
+    }
+    25% {
+        counter-increment: count 125;
+    }
+    30% {
+        counter-increment: count 150;
+    }
+    35% {
+        counter-increment: count 175;
+    }
+    40% {
+        counter-increment: count 200;
+    }
+    45% {
+        counter-increment: count 225;
+    }
+    50% {
+        counter-increment: count 250;
+    }
+    55% {
+        counter-increment: count 275;
+    }
+    60% {
+        counter-increment: count 300;
+    }
+    65% {
+        counter-increment: count 325;
+    }
+    70% {
+        counter-increment: count 350;
+    }
+    75% {
+        counter-increment: count 375;
+    }
+    80% {
+        counter-increment: count 400;
+    }
+    85% {
+        counter-increment: count 425;
+    }
+    90% {
+        counter-increment: count 450;
+    }
+    95% {
+        counter-increment: count 500;
+    }
+    100% {
+        counter-increment: count 568;
+    }
+  }
+
+#value4::after {
+    font: 700 50px system-ui;
+    content: counter(count);
+    animation: counter4 1s linear alternate;
+    counter-reset: count 0;
+    animation-fill-mode: forwards;
+  }
+
+@keyframes counter4{
+    0% {
+      counter-increment: count 0;
+    }
+    5% {
+        counter-increment: count 1;
+      }
+    10% {
+        counter-increment: count 2;
+    }
+    15% {
+        counter-increment: count 3;
+    }
+    20% {
+        counter-increment: count 4;
+    }
+    25% {
+        counter-increment: count 5;
+    }
+    30% {
+        counter-increment: count 6;
+    }
+    35% {
+        counter-increment: count 7;
+    }
+    40% {
+        counter-increment: count 8;
+    }
+    50% {
+        counter-increment: count 9;
+    }
+    55% {
+        counter-increment: count 10;
+    }
+    60% {
+        counter-increment: count 11;
+    }
+    65% {
+        counter-increment: count 12;
+    }
+    70% {
+        counter-increment: count 13;
+    }
+    80% {
+        counter-increment: count 14;
+    }
+    85% {
+        counter-increment: count 15;
+    }
+    90% {
+        counter-increment: count 16;
+    }
+    100% {
+        counter-increment: count 17;
+    }
+  }

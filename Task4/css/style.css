@@ -375,6 +375,7 @@ body{
 }
 .width-250{
     width: 250px;
+    cursor: pointer;
 }
 .font7{
     font-weight: 400;
@@ -418,6 +419,7 @@ body{
 }
 .width-290{
     width: 290px;
+    cursor: pointer;
 }
 .padding-top20-bottom40{
     padding-top: 20px;
@@ -529,4 +531,116 @@ body{
     color: #cccccc;
     margin-right: 20px;
     margin-top: 5px;
+}
+.width275{
+    width: 350px;
+}
+#wallet{
+    animation-name: anime1;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime1{
+    0%  {bottom:25px;}
+    100%    {bottom:0px;}
+}
+
+#undo{
+    animation-name: anime2;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime2{
+    0%  {bottom:25px;}
+    100%    {bottom:0px;}
+}
+
+#ban{
+    animation-name: anime3;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime3{
+    0%  {bottom:25px;}
+    100%    {bottom:0px;}
+}
+
+#globe{
+    animation-name: anime4;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime4{
+    0%  {bottom:25px;}
+    100%    {bottom:0px;}
+}
+
+#check{
+    animation-name: anime5;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes anime5{
+    0%  {bottom:25px;}
+    100%    {bottom:0px;}
+}
+
+#animatezoom{
+    animation: animezoom 1s;
+}
+
+@keyframes animezoom{
+    from    {transform:scale(0,0)} 
+    to  {transform:scale(1,1)}
+}
+
+#animatezoom2{
+    animation: animezoom2 1s;
+}
+
+@keyframes animezoom2{
+    from    {transform:scale(0,0)} 
+    to  {transform:scale(1,1)}
+}
+
+#laptop{
+    animation-name: laptopanime1;
+    animation-duration: 2s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes laptopanime1{
+    0%  {right: 300px;}
+    100%    {right: 0px;}
+}
+
+#video1{
+    animation-name: videoanime1;
+    animation-duration: 2s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes videoanime1{
+    0%  {left: 300px;}
+    100%    {left: 0px;}
+}
+
+#animetop{
+    animation-name: animediv;
+    animation-duration: 2s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes animediv{
+    0%  {top: 200px;}
+    100%    {top: 0px;}
+}
+
+#animatezoom3{
+    animation: animezoom3 1s;
+}
+
+@keyframes animezoom3{
+    from    {transform:scale(0,0)} 
+    to  {transform:scale(1,1)}
 }
