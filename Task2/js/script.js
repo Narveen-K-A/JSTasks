@@ -28,6 +28,16 @@ function scrolling5(){
   window.scrollTo(0,4500);
 }
 function changeStyle(){
+  console.log('Hi')
   var element = document.getElementById("home");
   element.style.fontWeight = 600;
+}
+
+var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+function scrollToTop() {
+    var rootElement = document.documentElement;
+    rootElement.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
 }

@@ -355,6 +355,48 @@ body{
 .height-500{
     height: 700px;
 }
+.icon-bar{
+    position: fixed;
+    top: 150px;
+    right: 25px;
+    width: 60px;
+    background-color: rgba(255,255,2555,1);
+    border-radius: 5px;
+    margin-right: 15px;
+    box-shadow: -10px 0px 20px 2px #0000000f;
+    z-index: 10;
+}
+.iconbar-10{
+    padding: 20px;
+    cursor: pointer;
+}
+.iconbar-10:hover{
+    color: #0078aa;
+}
+.shufflehound:hover{
+    color: #b7c2f5;
+    cursor: pointer;
+}
+.button-top{
+    position: fixed;
+    top: 550px;
+    right: 25px;
+    width: 60px;
+    background-color: rgba(255,255,2555,1);
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-right: 15px;
+    box-shadow: -10px 0px 20px 2px #0000000f;
+    z-index: 10;
+}
+#arrowup{
+    font-size: 30px;
+    color: #7d7d7d;
+}
+#scrollToTopBtn:hover{
+    background-color: #f36347;
+}
 
 #animation1{
     animation-name: anime1;

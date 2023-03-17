@@ -6,398 +6,406 @@
         <script src="assets/bootstrap.bundle.min.js"></script>
         <link rel="icon" type="image/gif" href="assets/icon.png">
         <script src="assets/icons.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script defer src="assets/jquery.min.js"></script>
+        <script defer src="assets/jquery.validate.min.js"></script>
+        <script defer src="assets/jquery-3.6.4.min.js"></script>
+        <script defer src="js/script.js"></script>
         <link rel="stylesheet" href="assets/icon.css">
         <title>
             Minimul Furniture Shop-Just another Jevelin WordPress theme.
         </title>
     </head>
     <body>
-        <div class="d-flex justify-content-between margin60">
-            <div>
-                <img src="assets/logo.png" alt="Logo">
-            </div>
-            <div>
-                <span class="font-weight-700 header1 cursor-pointer padding5">Home</span>
-                <span class="font-weight-600 header cursor-pointer padding5">Shop</span>
-                <span class="font-weight-600 header cursor-pointer padding5">Decor</span>
-                <span class="font-weight-600 header cursor-pointer padding5">Plant</span>
-                <span class="font-weight-600 header cursor-pointer padding5">Light</span>
-                <span class="font-weight-600 header cursor-pointer padding5">Chair</span>
-            </div>
-            <div>
-                <span class="padding5">
-                    <i class='fab fa-facebook-f' id="facebookIcon"></i>
-                </span>
-                <span class="padding5">
-                    <i class='fab fa-twitter' id="twitterIcon"></i>
-                </span>
-                <span class="padding5">
-                    <i class='fab fa-instagram' id="instagramIcon"></i>
-                </span>
-                <span class="padding5">
-                    <i class='fas fa-search' id="searchIcon"></i>
-                </span>
-                <span class="padding5">
-                    <i class='fas fa-shopping-cart' id="cartIcon"></i>
-                </span>
-            </div>
-        </div>
-        <!-- <div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-        </div>
         <div>
-            <button><img src="" alt=""></button>
-        </div> -->
-        <div class="d-flex justify-content-between margin-60">
-            <div>
-                <div class="margin-top-250">
-                    <button class="outline-none border-none new-collection bg-color-171717 font-weight-700" id="animation1">New Collection</button>
+            <div class="icon-bar">
+                <div class="iconbar-10">
+                    <i class='fas fa-layer-group'></i>
                 </div>
-                <div class="margin-top-35">
-                    <h2 class="font-weight-600 font-size-60 color-0f0f0f line-height-120per">Fill your home</h2>
-                    <h2 class="font-weight-600 font-size-60 color-0f0f0f line-height-120per">with uniqueness</h2>
+                <div class="iconbar-10">
+                    <i class='fas fa-glasses'></i>
                 </div>
-                <div class="margin-top-25">
-                    <h2 class="font-weight-600 font-size-20 color-6c6c6c">Huge variety with modern glamour!</h2>
+                <div class="iconbar-10">
+                    <i class='fas fa-shopping-bag'></i>
                 </div>
-            </div>
-            <div>
-                <img src="assets/furniture1.jpg" alt="Logo" class="width-560" id="image1-animation">
-            </div>
-        </div>
-        <div class="margin60">
-            <span class="font-weight-700 font-size-14 cursor-pointer header1" id="arrowDown">Explore
-                <i class='fas fa-angle-down'></i>
-            </span>
-        </div>
-        <div class="d-flex justify-content-center margin25">
-            <span class="font-weight-600 color-5a5a5a cursor-pointer">
-                ! Use discount code: FIRSTIME to get <span class="color-ff7012">10% off</span> your first order !
-            </span>
-        </div>
-        <div class="d-flex justify-content-center margin60">
-            <div class="bg1 padding80 text-center">
-                <button class="outline-none border-none new-collection bg-color-171717 font-weight-700 margin25" id="animation2">New Collection</button>
-                <h2 class="font-size-35 font-weight-600">Lights &</h2>
-                <h2 class="font-size-35 font-weight-600">Decor</h2>
-                <div class="header1 cursor-pointer font-weight-700 margin35">Show More
-                    <i class="material-icons">keyboard_arrow_right</i>
+                <div class="iconbar-10">
+                    <i class='far fa-question-circle'></i>
+                </div>
+                <div class="iconbar-10">
+                    <i class="fa fa-support"></i>
+                </div>
+                <div class="iconbar-10">
+                    <i class="fa fa-envelope"></i>
                 </div>
             </div>
-            <div class="bg2 padding80 text-center">
-                <h2 class="font-size-35 font-weight-600 padding-top-80">Kitchen</h2>
-                <h2 class="font-size-35 font-weight-600">Cutlery</h2>
-                <div class="header1 cursor-pointer font-weight-700 margin35">Show More
-                    <i class="material-icons">keyboard_arrow_right</i>
+            <button id="scrollToTopBtn" class="button-top">
+                <i class="material-icons" id="arrowup">keyboard_arrow_up</i>
+            </button>
+            <div class="d-flex justify-content-between margin60">
+                <div>
+                    <img src="assets/logo.png" alt="Logo">
+                </div>
+                <div>
+                    <span class="font-weight-700 header1 cursor-pointer padding5">Home</span>
+                    <span class="font-weight-600 header cursor-pointer padding5">Shop</span>
+                    <span class="font-weight-600 header cursor-pointer padding5">Decor</span>
+                    <span class="font-weight-600 header cursor-pointer padding5">Plant</span>
+                    <span class="font-weight-600 header cursor-pointer padding5">Light</span>
+                    <span class="font-weight-600 header cursor-pointer padding5">Chair</span>
+                </div>
+                <div>
+                    <span class="padding5">
+                        <i class='fab fa-facebook-f' id="facebookIcon"></i>
+                    </span>
+                    <span class="padding5">
+                        <i class='fab fa-twitter' id="twitterIcon"></i>
+                    </span>
+                    <span class="padding5">
+                        <i class='fab fa-instagram' id="instagramIcon"></i>
+                    </span>
+                    <span class="padding5">
+                        <i class='fas fa-search' id="searchIcon"></i>
+                    </span>
+                    <span class="padding5">
+                        <i class='fas fa-shopping-cart' id="cartIcon"></i>
+                    </span>
                 </div>
             </div>
-            <div class="bg3 padding80 text-center">
-                <button class="outline-none border-none new-collection bg-color-ff7012 font-weight-700 margin25" id="animation3">Sale</button>
-                <h2 class="font-size-35 font-weight-600">Living</h2>
-                <h2 class="font-size-35 font-weight-600">Room</h2>
-                <div class="header1 cursor-pointer font-weight-700 margin35">Show More
-                    <i class="material-icons">keyboard_arrow_right</i>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center margin60">
-            <div class="margin25">
-                <img src="assets/mklt.png" alt="MKLT">
-            </div>
-            <div class="margin35">
-                <img src="assets/can.png" alt="CAN">
-            </div>
-            <div class="margin35">
-                <img src="assets/musclebase.png" alt="Musclebase">
-            </div>
-            <div class="margin35">
-                <img src="assets/sbeauty.png" alt="Sbeauty">
-            </div>
-            <div class="margin35">
-                <img src="assets/sh.png" alt="SH">
-            </div>
-            <div class="margin35">
-                <img src="assets/balloonbear.png" alt="Balloonbear">
-            </div>
-        </div>
-        <div class="d-flex justify-content-between margin300">
-            <div class="margin25">
-                <img src="assets/furniture5.png" alt="Furniture5" class="img-width">
-            </div>
-            <div class="margin25">
-                <h2 class="font-weight-400 font-size-20 color-0a0a0a">
-                    Our special offer
-                </h2>
-                <h2 class="font-weight-600 font-size-35">
-                    Featured products with
-                </h2>
-                <h2 class="font-weight-600 font-size-35">
-                    amazing color variety
-                </h2>
-                <h2 class="font-weight-600 font-size-35">
-                    for your home
-                </h2>
-                <button class="outline-none border-none purchase font-weight-600 buttonMargin">
-                    Purchase
-                </button>
-            </div>
-        </div>
-        <div class="d-flex text-center margin200">
-            <div class="margin25">
-                <i class='far fa-clock' id="clockIcon"></i>
-                <h2 class="font-size-18 font-weight-600 color-000000 text-center">24 h Shipping</h2>
-                <p class="font-size-15 color-686868 text-center margin-top-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
-            </div>
-            <div class="margin25">
-                <i class='fas fa-truck' id="truckIcon"></i>
-                <h2 class="font-size-18 font-weight-600 color-000000 text-center">Free Returns</h2>
-                <p class="font-size-15 color-686868 text-center margin-top-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
-            </div>
-            <div class="margin25">
-                <i class='fas fa-wallet' id="walletIcon"></i>
-                <h2 class="font-size-18 font-weight-600 color-000000 text-center">100% Money Back Guarantee</h2>
-                <p class="font-size-15 color-686868 text-center margin-top-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
-            </div>
-        </div>
-        <div>
-            <h2 class="text-center font-size-44 font-weight-500 margin60">Ideas for inspiration</h2>
-        </div>
-        <div class="d-flex justify-content-center">
-            <img src="assets/furniture6.jpg" alt="Furniture6" class="width-960" id="image2-animation">
-        </div>
-        <div class="d-flex justify-content-between margin200">
-            <div>
-                <h2 class="font-size-26 font-weight-600">Find the closest store to your</h2>
-                <h2 class="font-size-26 font-weight-600">location</h2>
-            </div>
-            <div>
-                <button class="outline-none border-none purchase font-weight-600">Find Now</button>
-            </div>
-        </div>
-        <div>
-            <h2 class="font-size-15 color-686868 font-weight-400 margin-200">Quisque ut aliquam nunc, at finibus ante. Sed dignissim, nulla</h2>
-            <h2 class="font-size-15 color-686868 font-weight-400 margin-200">a fermentum egestas, odio</h2>
-        </div>
-        <div class="margin100">
-            <h2 class="font-weight-500 font-size-44 color-0f0f0f text-center">Great deals for</h2>
-            <h2 class="font-weight-500 font-size-44 color-0f0f0f text-center">great prices</h2>
-        </div>
-        <div class="d-flex justify-content-center">
-            <div class="margin25">
-                <img src="assets/furniture7.jpg" alt="Furniture7" class="width-220">
-                <div class="d-flex justify-content-between margin-top-25">
-                    <div>
-                        <h2 class="font-weight-600 font-size-15">Table succulent plant</h2>
+            <div class="d-flex justify-content-between margin-60">
+                <div>
+                    <div class="margin-top-250">
+                        <button class="outline-none border-none new-collection bg-color-171717 font-weight-700" id="animation1">New Collection</button>
                     </div>
-                    <div class="text-center cartHover">
-                        <i class='fas fa-shopping-cart'></i>
+                    <div class="margin-top-35">
+                        <h2 class="font-weight-600 font-size-60 color-0f0f0f line-height-120per">Fill your home</h2>
+                        <h2 class="font-weight-600 font-size-60 color-0f0f0f line-height-120per">with uniqueness</h2>
                     </div>
-                </div>
-                <h2 class="font-weight-700 font-size-15">£5.00</h2>
-            </div>
-            <div class="margin25">
-                <img src="assets/furniture8.jpg" alt="Furniture8" class="width-220">
-                <div class="d-flex justify-content-between margin-top-25">
-                    <div>
-                        <h2 class="font-weight-600 font-size-15">Metallic sidetable lamp</h2>
-                    </div>
-                    <div class="text-center cartHover">
-                        <i class='fas fa-shopping-cart'></i>
-                    </div>
-                </div>
-                <h2 class="font-weight-700 font-size-15">£5.00</h2>
-            </div>
-            <div class="margin25">
-                <img src="assets/furniture9.jpg" alt="Furniture9" class="width-220">
-                <div class="d-flex justify-content-between margin-top-25">
-                    <div>
-                        <h2 class="font-weight-600 font-size-15">Wooden picture frame</h2>
-                    </div>
-                    <div class="text-center cartHover">
-                        <i class='fas fa-shopping-cart'></i>
-                    </div>
-                </div>
-                <h2 class="font-weight-700 font-size-15">£5.00</h2>
-            </div>
-            <div class="margin25">
-                <img src="assets/furniture10.jpg" alt="Furniture10" class="width-220">
-                <div class="d-flex justify-content-between margin-top-25">
-                    <div>
-                        <h2 class="font-weight-600 font-size-15">Bedroom mirror</h2>
-                    </div>
-                    <div class="text-center cartHover">
-                        <i class='fas fa-shopping-cart'></i>
-                    </div>
-                </div>
-                <h2 class="font-weight-700 font-size-15">£5.00</h2>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center">
-            <div class="margin25">
-                <img src="assets/furniture11.jpg" alt="Furniture11" class="width-220">
-                <div class="d-flex justify-content-between margin-top-25">
-                    <div>
-                        <h2 class="font-weight-600 font-size-15">Minimalistic chair</h2>
-                    </div>
-                    <div class="text-center cartHover">
-                        <i class='fas fa-shopping-cart'></i>
-                    </div>
-                </div>
-                <h2 class="font-weight-700 font-size-15">£5.00</h2>
-            </div>
-            <div class="margin25">
-                <img src="assets/furniture12.jpg" alt="Furniture12" class="width-220">
-                <div class="d-flex justify-content-between margin-top-25">
-                    <div>
-                        <h2 class="font-weight-600 font-size-15">Cactus succulent plant</h2>
-                    </div>
-                    <div class="text-center cartHover">
-                        <i class='fas fa-shopping-cart'></i>
-                    </div>
-                </div>
-                <h2 class="font-weight-700 font-size-15">£5.00</h2>
-            </div>
-            <div class="margin25">
-                <img src="assets/furniture13.jpg" alt="Furniture13" class="width-220">
-                <div class="d-flex justify-content-between margin-top-25">
-                    <div>
-                        <h2 class="font-weight-600 font-size-15">Decorative pillow</h2>
-                    </div>
-                    <div class="text-center cartHover">
-                        <i class='fas fa-shopping-cart'></i>
-                    </div>
-                </div>
-                <h2 class="font-weight-700 font-size-15">£5.00</h2>
-            </div>
-            <div class="margin25">
-                <img src="assets/furniture14.jpg" alt="Furniture14" class="width-220">
-                <div class="d-flex justify-content-between margin-top-25">
-                    <div>
-                        <h2 class="font-weight-600 font-size-15">Metallic table lamp</h2>
-                    </div>
-                    <div class="text-center cartHover">
-                        <i class='fas fa-shopping-cart'></i>
-                    </div>
-                </div>
-                <h2 class="font-weight-700 font-size-15">£ 5.00</h2>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center margin-top-250">
-            <h2 class="font-weight-700 font-size-35">Join the newsletter</h2>
-        </div>
-        <div class="d-flex justify-content-center">
-            <p class="font-size-15 color-7d7d7d font-weight-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris</p>
-        </div>
-        <div class="d-flex justify-content-center margin-bottom-250">
-            <div>
-                <input type="text" class="outline-none width-560" placeholder="Please enter your email here...">
-            </div>
-            <div>
-                <button class="outline-none border-none purchase font-weight-600">Subscribe</button>
-            </div>
-        </div>
-        <div class="d-flex justify-content-between margin200">
-            <div class="width200 padding-bottom100">
-                <h4 class="font-size-14 font-weight-600">PAYMENT METHOD</h4>
-                <div class="font-size-12 font-weight-400 line-height-30 margin-top-25">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
-                </div>
-                <div class="d-flex margin-top-25">
-                    <div class="margin-right-10">
-                        <i class='fab fa-cc-visa' id="visaIcon"></i>
-                    </div>
-                    <div class="margin-right-10">
-                        <i class='fab fa-cc-mastercard' id="masterIcon"></i>
-                    </div>
-                    <div class="margin-right-10">
-                        <i class='fab fa-cc-amex' id="amexIcon"></i>
-                    </div>
-                    <div class="margin-right-10">
-                        <i class='fab fa-cc-paypal' id="paypalIcon"></i>
+                    <div class="margin-top-25">
+                        <h2 class="font-weight-600 font-size-20 color-6c6c6c">Huge variety with modern glamour!</h2>
                     </div>
                 </div>
                 <div>
-                    <i class='fab fa-cc-jcb' id="jcbIcon"></i>
+                    <img src="assets/furniture1.jpg" alt="Logo" class="width-560" id="image1-animation">
                 </div>
-                <div class="d-flex">
-                    <div class="margin-right5">
-                        <i class='fas fa-lock'></i>
+            </div>
+            <div class="margin60">
+                <span class="font-weight-700 font-size-14 cursor-pointer header1" id="arrowDown">Explore
+                    <i class='fas fa-angle-down'></i>
+                </span>
+            </div>
+            <div class="d-flex justify-content-center margin25">
+                <span class="font-weight-600 color-5a5a5a cursor-pointer">
+                    ! Use discount code: FIRSTIME to get <span class="color-ff7012">10% off</span> your first order !
+                </span>
+            </div>
+            <div class="d-flex justify-content-center margin60">
+                <div class="bg1 padding80 text-center">
+                    <button class="outline-none border-none new-collection bg-color-171717 font-weight-700 margin25" id="animation2">New Collection</button>
+                    <h2 class="font-size-35 font-weight-600">Lights &</h2>
+                    <h2 class="font-size-35 font-weight-600">Decor</h2>
+                    <div class="header1 cursor-pointer font-weight-700 margin35">Show More
+                        <i class="material-icons">keyboard_arrow_right</i>
+                    </div>
+                </div>
+                <div class="bg2 padding80 text-center">
+                    <h2 class="font-size-35 font-weight-600 padding-top-80">Kitchen</h2>
+                    <h2 class="font-size-35 font-weight-600">Cutlery</h2>
+                    <div class="header1 cursor-pointer font-weight-700 margin35">Show More
+                        <i class="material-icons">keyboard_arrow_right</i>
+                    </div>
+                </div>
+                <div class="bg3 padding80 text-center">
+                    <button class="outline-none border-none new-collection bg-color-ff7012 font-weight-700 margin25" id="animation3">Sale</button>
+                    <h2 class="font-size-35 font-weight-600">Living</h2>
+                    <h2 class="font-size-35 font-weight-600">Room</h2>
+                    <div class="header1 cursor-pointer font-weight-700 margin35">Show More
+                        <i class="material-icons">keyboard_arrow_right</i>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center margin60">
+                <div class="margin25">
+                    <img src="assets/mklt.png" alt="MKLT">
+                </div>
+                <div class="margin35">
+                    <img src="assets/can.png" alt="CAN">
+                </div>
+                <div class="margin35">
+                    <img src="assets/musclebase.png" alt="Musclebase">
+                </div>
+                <div class="margin35">
+                    <img src="assets/sbeauty.png" alt="Sbeauty">
+                </div>
+                <div class="margin35">
+                    <img src="assets/sh.png" alt="SH">
+                </div>
+                <div class="margin35">
+                    <img src="assets/balloonbear.png" alt="Balloonbear">
+                </div>
+            </div>
+            <div class="d-flex justify-content-between margin300">
+                <div id="container1" class="margin25 twentytwenty-container">
+                    <img src="assets/furniture5.png" alt="Furniture5" class="img-width">
+                    <img src="assets/furniture5-1.png" alt="Furniture5 After" class="img-width">
+                </div>
+                <div class="margin25">
+                    <h2 class="font-weight-400 font-size-20 color-0a0a0a">
+                        Our special offer
+                    </h2>
+                    <h2 class="font-weight-600 font-size-35">
+                        Featured products with
+                    </h2>
+                    <h2 class="font-weight-600 font-size-35">
+                        amazing color variety
+                    </h2>
+                    <h2 class="font-weight-600 font-size-35">
+                        for your home
+                    </h2>
+                    <button class="outline-none border-none purchase font-weight-600 buttonMargin">
+                        Purchase
+                    </button>
+                </div>
+            </div>
+            <div class="d-flex text-center margin200">
+                <div class="margin25">
+                    <i class='far fa-clock' id="clockIcon"></i>
+                    <h2 class="font-size-18 font-weight-600 color-000000 text-center">24 h Shipping</h2>
+                    <p class="font-size-15 color-686868 text-center margin-top-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
+                </div>
+                <div class="margin25">
+                    <i class='fas fa-truck' id="truckIcon"></i>
+                    <h2 class="font-size-18 font-weight-600 color-000000 text-center">Free Returns</h2>
+                    <p class="font-size-15 color-686868 text-center margin-top-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
+                </div>
+                <div class="margin25">
+                    <i class='fas fa-wallet' id="walletIcon"></i>
+                    <h2 class="font-size-18 font-weight-600 color-000000 text-center">100% Money Back Guarantee</h2>
+                    <p class="font-size-15 color-686868 text-center margin-top-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-center font-size-44 font-weight-500 margin60">Ideas for inspiration</h2>
+            </div>
+            <div class="d-flex justify-content-center">
+                <img src="assets/furniture6.jpg" alt="Furniture6" class="width-960" id="image2-animation">
+            </div>
+            <div class="d-flex justify-content-between margin200">
+                <div>
+                    <h2 class="font-size-26 font-weight-600">Find the closest store to your</h2>
+                    <h2 class="font-size-26 font-weight-600">location</h2>
+                </div>
+                <div>
+                    <button class="outline-none border-none purchase font-weight-600">Find Now</button>
+                </div>
+            </div>
+            <div>
+                <h2 class="font-size-15 color-686868 font-weight-400 margin-200">Quisque ut aliquam nunc, at finibus ante. Sed dignissim, nulla</h2>
+                <h2 class="font-size-15 color-686868 font-weight-400 margin-200">a fermentum egestas, odio</h2>
+            </div>
+            <div class="margin100">
+                <h2 class="font-weight-500 font-size-44 color-0f0f0f text-center">Great deals for</h2>
+                <h2 class="font-weight-500 font-size-44 color-0f0f0f text-center">great prices</h2>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="margin25">
+                    <img src="assets/furniture7.jpg" alt="Furniture7" class="width-220">
+                    <div class="d-flex justify-content-between margin-top-25">
+                        <div>
+                            <h2 class="font-weight-600 font-size-15">Table succulent plant</h2>
+                        </div>
+                        <div class="text-center cartHover">
+                            <i class='fas fa-shopping-cart'></i>
+                        </div>
+                    </div>
+                    <h2 class="font-weight-700 font-size-15">£5.00</h2>
+                </div>
+                <div class="margin25">
+                    <img src="assets/furniture8.jpg" alt="Furniture8" class="width-220">
+                    <div class="d-flex justify-content-between margin-top-25">
+                        <div>
+                            <h2 class="font-weight-600 font-size-15">Metallic sidetable lamp</h2>
+                        </div>
+                        <div class="text-center cartHover">
+                            <i class='fas fa-shopping-cart'></i>
+                        </div>
+                    </div>
+                    <h2 class="font-weight-700 font-size-15">£5.00</h2>
+                </div>
+                <div class="margin25">
+                    <img src="assets/furniture9.jpg" alt="Furniture9" class="width-220">
+                    <div class="d-flex justify-content-between margin-top-25">
+                        <div>
+                            <h2 class="font-weight-600 font-size-15">Wooden picture frame</h2>
+                        </div>
+                        <div class="text-center cartHover">
+                            <i class='fas fa-shopping-cart'></i>
+                        </div>
+                    </div>
+                    <h2 class="font-weight-700 font-size-15">£5.00</h2>
+                </div>
+                <div class="margin25">
+                    <img src="assets/furniture10.jpg" alt="Furniture10" class="width-220">
+                    <div class="d-flex justify-content-between margin-top-25">
+                        <div>
+                            <h2 class="font-weight-600 font-size-15">Bedroom mirror</h2>
+                        </div>
+                        <div class="text-center cartHover">
+                            <i class='fas fa-shopping-cart'></i>
+                        </div>
+                    </div>
+                    <h2 class="font-weight-700 font-size-15">£5.00</h2>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="margin25">
+                    <img src="assets/furniture11.jpg" alt="Furniture11" class="width-220">
+                    <div class="d-flex justify-content-between margin-top-25">
+                        <div>
+                            <h2 class="font-weight-600 font-size-15">Minimalistic chair</h2>
+                        </div>
+                        <div class="text-center cartHover">
+                            <i class='fas fa-shopping-cart'></i>
+                        </div>
+                    </div>
+                    <h2 class="font-weight-700 font-size-15">£5.00</h2>
+                </div>
+                <div class="margin25">
+                    <img src="assets/furniture12.jpg" alt="Furniture12" class="width-220">
+                    <div class="d-flex justify-content-between margin-top-25">
+                        <div>
+                            <h2 class="font-weight-600 font-size-15">Cactus succulent plant</h2>
+                        </div>
+                        <div class="text-center cartHover">
+                            <i class='fas fa-shopping-cart'></i>
+                        </div>
+                    </div>
+                    <h2 class="font-weight-700 font-size-15">£5.00</h2>
+                </div>
+                <div class="margin25">
+                    <img src="assets/furniture13.jpg" alt="Furniture13" class="width-220">
+                    <div class="d-flex justify-content-between margin-top-25">
+                        <div>
+                            <h2 class="font-weight-600 font-size-15">Decorative pillow</h2>
+                        </div>
+                        <div class="text-center cartHover">
+                            <i class='fas fa-shopping-cart'></i>
+                        </div>
+                    </div>
+                    <h2 class="font-weight-700 font-size-15">£5.00</h2>
+                </div>
+                <div class="margin25">
+                    <img src="assets/furniture14.jpg" alt="Furniture14" class="width-220">
+                    <div class="d-flex justify-content-between margin-top-25">
+                        <div>
+                            <h2 class="font-weight-600 font-size-15">Metallic table lamp</h2>
+                        </div>
+                        <div class="text-center cartHover">
+                            <i class='fas fa-shopping-cart'></i>
+                        </div>
+                    </div>
+                    <h2 class="font-weight-700 font-size-15">£ 5.00</h2>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center margin-top-250">
+                <h2 class="font-weight-700 font-size-35">Join the newsletter</h2>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="font-size-15 color-7d7d7d font-weight-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris</p>
+            </div>
+            <div class="d-flex justify-content-center margin-bottom-250">
+                <div>
+                    <input type="text" class="outline-none width-560" placeholder="Please enter your email here...">
+                </div>
+                <div>
+                    <button class="outline-none border-none purchase font-weight-600">Subscribe</button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between margin200">
+                <div class="width200 padding-bottom100">
+                    <h4 class="font-size-14 font-weight-600">PAYMENT METHOD</h4>
+                    <div class="font-size-12 font-weight-400 line-height-30 margin-top-25">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
+                    </div>
+                    <div class="d-flex margin-top-25">
+                        <div class="margin-right-10">
+                            <i class='fab fa-cc-visa' id="visaIcon"></i>
+                        </div>
+                        <div class="margin-right-10">
+                            <i class='fab fa-cc-mastercard' id="masterIcon"></i>
+                        </div>
+                        <div class="margin-right-10">
+                            <i class='fab fa-cc-amex' id="amexIcon"></i>
+                        </div>
+                        <div class="margin-right-10">
+                            <i class='fab fa-cc-paypal' id="paypalIcon"></i>
+                        </div>
                     </div>
                     <div>
-                        <h2 class="font-size-12 font-weight-400 line-height-30">Secure online payment</h2>
+                        <i class='fab fa-cc-jcb' id="jcbIcon"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="margin-right5">
+                            <i class='fas fa-lock'></i>
+                        </div>
+                        <div>
+                            <h2 class="font-size-12 font-weight-400 line-height-30">Secure online payment</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="padding-bottom100">
-                <h4 class="font-size-14 font-weight-600">TOP RATED</h4>
-                <div class="d-flex">
-                    <div class="margin-top-25">
-                        <img src="assets/flowerpot.jpg" alt="Concrete flower pot" class="width55 cursor-pointer">
+                <div class="padding-bottom100">
+                    <h4 class="font-size-14 font-weight-600">TOP RATED</h4>
+                    <div class="d-flex">
+                        <div class="margin-top-25">
+                            <img src="assets/flowerpot.jpg" alt="Concrete flower pot" class="width55 cursor-pointer">
+                        </div>
+                        <div class="margin-top-25">
+                            <h2 class="font-size-14 font-weight-700 footer-font2">Concrete flower pot</h2>
+                            <h2 class="font-size-16 font-weight-700">£5.00</h2>
+                        </div>
                     </div>
-                    <div class="margin-top-25">
-                        <h2 class="font-size-14 font-weight-700 footer-font2">Concrete flower pot</h2>
-                        <h2 class="font-size-16 font-weight-700">£5.00</h2>
+                    <div class="d-flex">
+                        <div class="margin-top-25">
+                            <img src="assets/furniture7.jpg" alt="Table succulent plant" class="width55 cursor-pointer">
+                        </div>
+                        <div class="margin-top-25">
+                            <h2 class="font-size-14 font-weight-700 footer-font2">Table succulent plant</h2>
+                            <h2 class="font-size-16 font-weight-700">£5.00</h2>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="margin-top-25">
+                            <img src="assets/furniture8.jpg" alt="Metallic side table lamp" class="width55 cursor-pointer">
+                        </div>
+                        <div class="margin-top-25">
+                            <h2 class="font-size-14 font-weight-700 footer-font2">Metallic side table lamp</h2>
+                            <h2 class="font-size-16 font-weight-700">£5.00</h2>
+                        </div>
                     </div>
                 </div>
-                <div class="d-flex">
-                    <div class="margin-top-25">
-                        <img src="assets/furniture7.jpg" alt="Table succulent plant" class="width55 cursor-pointer">
-                    </div>
-                    <div class="margin-top-25">
-                        <h2 class="font-size-14 font-weight-700 footer-font2">Table succulent plant</h2>
-                        <h2 class="font-size-16 font-weight-700">£5.00</h2>
-                    </div>
+                <div class="padding-bottom100">
+                    <h4 class="font-size-14 font-weight-600">SHOPPING GUIDE</h4>
+                    <h5 class="font-size-12 font-weight-500 footer-font margin-top-25">FAQ</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Shipment</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Returns</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Policies</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Gift cards</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Clothing care</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Purchase conditions</h5>
                 </div>
-                <div class="d-flex">
-                    <div class="margin-top-25">
-                        <img src="assets/furniture8.jpg" alt="Metallic side table lamp" class="width55 cursor-pointer">
-                    </div>
-                    <div class="margin-top-25">
-                        <h2 class="font-size-14 font-weight-700 footer-font2">Metallic side table lamp</h2>
-                        <h2 class="font-size-16 font-weight-700">£5.00</h2>
-                    </div>
+                <div class="padding-bottom100">
+                    <h4 class="font-size-14 font-weight-600">COMPANY</h4>
+                    <h5 class="font-size-12 font-weight-500 footer-font margin-top-25">About us</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Press</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Our team</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Offices</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Affiliates</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Giveaway</h5>
+                    <h5 class="font-size-12 font-weight-500 footer-font">Contact</h5>
                 </div>
             </div>
-            <div class="padding-bottom100">
-                <h4 class="font-size-14 font-weight-600">SHOPPING GUIDE</h4>
-                <h5 class="font-size-12 font-weight-500 footer-font margin-top-25">FAQ</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Shipment</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Returns</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Policies</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Gift cards</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Clothing care</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Purchase conditions</h5>
+            <div class="d-flex justify-content-center padding-copy">
+                <h2 class="font-weight-400 color-686868 font-size-14">Copyright © 2020 JevelinTheme - Theme by Shufflehound</h2>
             </div>
-            <div class="padding-bottom100">
-                <h4 class="font-size-14 font-weight-600">COMPANY</h4>
-                <h5 class="font-size-12 font-weight-500 footer-font margin-top-25">About us</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Press</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Our team</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Offices</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Affiliates</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Giveaway</h5>
-                <h5 class="font-size-12 font-weight-500 footer-font">Contact</h5>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center padding-copy">
-            <h2 class="font-weight-400 color-686868 font-size-14">Copyright © 2020 JevelinTheme - Theme by Shufflehound</h2>
         </div>
     </body>
 </html>
