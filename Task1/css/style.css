@@ -336,6 +336,9 @@ input{
 .iconbar-10:hover{
     color: #0078aa;
 }
+.nav-bar1{
+    position: sticky;
+}
 
 #animation1{
     animation-name: anime1;
@@ -387,14 +390,25 @@ input{
     100%    {transform: rotate(0deg);}
 }
 
+.dis-none{
+    display: none;
+}
 
 @media (max-width: 1024px){
 	
 }
 @media (max-width: 768px){
 	
+	div .icon-bar{
+        display: none!important;
+    }
 }
-@media (max-width: 425px){
-	
+@media screen and (max-width: 425px){
+	div.icon-bar{
+        display: none!important;
+    }
+    .hide-button{
+        display: block;
+    }
 }
 

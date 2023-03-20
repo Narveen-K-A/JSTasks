@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
         <link rel="stylesheet" href="assets/bootstrap.min.css">
         <link rel="stylesheet" href="assets/fontawesome.min.css">
         <link rel="stylesheet" href="assets/icon.css">
         <script src="assets/bootstrap.bundle.min.js"></script>
         <link rel="icon" type="image/gif" href="assets/icon.png">
         <script src="assets/icons.js"></script>
-        <script defer src="js/script.js"></script>
+        <script defer src="js/script.js"></script> 
         <script src="assets/map.js" defer></script>
         <script src="assets/polyfill.min.js" defer></script>
         <title>
@@ -17,7 +21,7 @@
     </head>
     <body>
         <div class="pos-rel">
-            <div class="icon-bar">
+            <div class="icon-bar d-sm-none d-md-block">
                 <div class="iconbar-10">
                     <i class='fas fa-layer-group'></i>
                 </div>
@@ -41,7 +45,7 @@
                 <i class="material-icons" id="arrowup">keyboard_arrow_up</i>
             </button>
             <div class="bg1 padding75">
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between" id="header">
                     <div>
                         <img src="assets/logo.png" alt="Logo" class="logo">
                     </div>
@@ -398,9 +402,10 @@
                     </div>
                 </div>
             </div>
+            <!-- 
             <div id="map">
-                <!-- Map -->
             </div>
+            -->
             <div class="d-flex justify-content-around margin-100-150">
                 <div class="d-flex">
                     <div class="margin20">

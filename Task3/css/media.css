@@ -1,0 +1,11 @@
+@media screen and (max-width: 425px) {
+    .bg1{
+        height: 100%;
+        width: 340px;
+    }
+    .icon-bar{
+        display: none!important;
+        background-color: red;
+    }
+  }
+

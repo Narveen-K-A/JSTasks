@@ -478,6 +478,9 @@ input{
 #scrollToTopBtn:hover{
     background-color: #47c9e5;
 }
+::placeholder {
+    font-style:italic;
+}
 
 #value1::after {
     font: 700 50px system-ui;
