@@ -17,6 +17,9 @@ body{
     width: 1349px;
     height: 1020px;
 }
+.disflex{
+    display: flex;
+}
 .bg2{
     background-image: url('../assets/bg2.jpg');
 }
