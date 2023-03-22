@@ -1,5 +1,5 @@
-@media screen and (max-width: 320px){
-  div.icon-bar{
+@media screen and (max-width: 320px) and (min-width: 200px){
+  .icon-bar{
       display: none!important;
   } 
 }
