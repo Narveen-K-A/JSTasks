@@ -386,4 +386,29 @@
         margin-top: 50px;
         margin-bottom: 75px;
     }
+    .template1{
+        margin: 100px;
+    }
+    .width-500{
+        width: 1100px;
+    }
+    .template2{
+        margin: 100px;
+    }
+    .padding-bottom100{
+        padding-bottom: 50px;
+    }
+    .font100{
+        font-size: 50px;
+    }
+    #value1::after,
+    #value2::after,
+    #value3::after,
+    #value4::after{
+        font-size: 85px!important;
+    }
+    .imageadjust{
+        width: 1300px;
+        height: 900px;
+    }
 }
